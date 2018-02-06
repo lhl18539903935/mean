@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/node_modules/vux/src/components/popup-radio/index.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/MerchantCard.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/merchant_search.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/perfecfbink.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/person/registerPss.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/app/wanma_search.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/components/HelloFromVux.vue" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/router/index.js" charset="UTF-8" />
+  </component>
+</project>

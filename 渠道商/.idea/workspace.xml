@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bc4f506-2798-4dba-823e-169508c138d9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/qudaoshang_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/qudaoshang.iml" afterPath="$PROJECT_DIR$/.idea/qudaoshang.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ajax.js" afterPath="$PROJECT_DIR$/src/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/MerchantCard.vue" afterPath="$PROJECT_DIR$/src/app/MerchantCard.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Perfectdata.vue" afterPath="$PROJECT_DIR$/src/app/Perfectdata.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/addMerchant.vue" afterPath="$PROJECT_DIR$/src/app/addMerchant.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/addNext.vue" afterPath="$PROJECT_DIR$/src/app/addNext.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/add_bink.vue" afterPath="$PROJECT_DIR$/src/app/add_bink.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/add_card.vue" afterPath="$PROJECT_DIR$/src/app/add_card.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/add_zhifubao.vue" afterPath="$PROJECT_DIR$/src/app/add_zhifubao.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/agent.vue" afterPath="$PROJECT_DIR$/src/app/agent.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/agreenment.vue" afterPath="$PROJECT_DIR$/src/app/agreenment.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/alreadySure.vue" afterPath="$PROJECT_DIR$/src/app/alreadySure.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/announcement.vue" afterPath="$PROJECT_DIR$/src/app/announcement.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/announcementsomthing.vue" afterPath="$PROJECT_DIR$/src/app/announcementsomthing.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cash_infer.vue" afterPath="$PROJECT_DIR$/src/app/cash_infer.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/certify.vue" afterPath="$PROJECT_DIR$/src/app/certify.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/check.vue" afterPath="$PROJECT_DIR$/src/app/check.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/chose.vue" afterPath="$PROJECT_DIR$/src/app/chose.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/choseCode.vue" afterPath="$PROJECT_DIR$/src/app/choseCode.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/code.vue" afterPath="$PROJECT_DIR$/src/app/code.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/complaint.vue" afterPath="$PROJECT_DIR$/src/app/complaint.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contract.vue" afterPath="$PROJECT_DIR$/src/app/contract.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/detail.vue" afterPath="$PROJECT_DIR$/src/app/detail.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/editbankcard.vue" afterPath="$PROJECT_DIR$/src/app/editbankcard.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/forgetPass.vue" afterPath="$PROJECT_DIR$/src/app/forgetPass.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/forms.vue" afterPath="$PROJECT_DIR$/src/app/forms.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/give.vue" afterPath="$PROJECT_DIR$/src/app/give.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/helpcenter.vue" afterPath="$PROJECT_DIR$/src/app/helpcenter.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.vue" afterPath="$PROJECT_DIR$/src/app/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/login.vue" afterPath="$PROJECT_DIR$/src/app/login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/merchant.vue" afterPath="$PROJECT_DIR$/src/app/merchant.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/merchantDetail.vue" afterPath="$PROJECT_DIR$/src/app/merchantDetail.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/merchantList.vue" afterPath="$PROJECT_DIR$/src/app/merchantList.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/merchant_search.vue" afterPath="$PROJECT_DIR$/src/app/merchant_search.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/percentage.vue" afterPath="$PROJECT_DIR$/src/app/percentage.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/perfecfbink.vue" afterPath="$PROJECT_DIR$/src/app/perfecfbink.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/abouth.vue" afterPath="$PROJECT_DIR$/src/app/person/abouth.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/addCard.vue" afterPath="$PROJECT_DIR$/src/app/person/addCard.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/address.vue" afterPath="$PROJECT_DIR$/src/app/person/address.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/attestation.vue" afterPath="$PROJECT_DIR$/src/app/person/attestation.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/business.vue" afterPath="$PROJECT_DIR$/src/app/person/business.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/companybook.vue" afterPath="$PROJECT_DIR$/src/app/person/companybook.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/companyhetong.vue" afterPath="$PROJECT_DIR$/src/app/person/companyhetong.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/companyname.vue" afterPath="$PROJECT_DIR$/src/app/person/companyname.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/data.vue" afterPath="$PROJECT_DIR$/src/app/person/data.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/edit.vue" afterPath="$PROJECT_DIR$/src/app/person/edit.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/editAdd.vue" afterPath="$PROJECT_DIR$/src/app/person/editAdd.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/my_card.vue" afterPath="$PROJECT_DIR$/src/app/person/my_card.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/newPass.vue" afterPath="$PROJECT_DIR$/src/app/person/newPass.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/perMain.vue" afterPath="$PROJECT_DIR$/src/app/person/perMain.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/phone.vue" afterPath="$PROJECT_DIR$/src/app/person/phone.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/registerPss.vue" afterPath="$PROJECT_DIR$/src/app/person/registerPss.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/rename.vue" afterPath="$PROJECT_DIR$/src/app/person/rename.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/replace.vue" afterPath="$PROJECT_DIR$/src/app/person/replace.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/revisePwd.vue" afterPath="$PROJECT_DIR$/src/app/person/revisePwd.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/twithdraw.vue" afterPath="$PROJECT_DIR$/src/app/person/twithdraw.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/readContract.vue" afterPath="$PROJECT_DIR$/src/app/readContract.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/register.vue" afterPath="$PROJECT_DIR$/src/app/register.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/search.vue" afterPath="$PROJECT_DIR$/src/app/search.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/serchtousu.vue" afterPath="$PROJECT_DIR$/src/app/serchtousu.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/shenhenolist.vue" afterPath="$PROJECT_DIR$/src/app/shenhenolist.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/shensudetails.vue" afterPath="$PROJECT_DIR$/src/app/shensudetails.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/solution.vue" afterPath="$PROJECT_DIR$/src/app/solution.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/storelist-search.vue" afterPath="$PROJECT_DIR$/src/app/storelist-search.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/tenant.vue" afterPath="$PROJECT_DIR$/src/app/tenant.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/upload.vue" afterPath="$PROJECT_DIR$/src/app/upload.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/viewdetails.vue" afterPath="$PROJECT_DIR$/src/app/viewdetails.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/wanma_search.vue" afterPath="$PROJECT_DIR$/src/app/wanma_search.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/ws_manage.vue" afterPath="$PROJECT_DIR$/src/app/ws_manage.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/upload.js" afterPath="$PROJECT_DIR$/src/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vuex/ajax.js" afterPath="$PROJECT_DIR$/src/vuex/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vuex/mixin.js" afterPath="$PROJECT_DIR$/src/vuex/mixin.js" />
+    </list>
+    <ignored path="qudaoshang.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="qudaoshang" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="chose.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/chose.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/login.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="myVue" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>type:'warn'</find>
+      <find>type: &quot;warn&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>type: &quot;text&quot;,position:'bottom',</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\liu\qudaoshang</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/complaint.vue" />
+        <option value="$PROJECT_DIR$/src/app/editbankcard.vue" />
+        <option value="$PROJECT_DIR$/src/app/give.vue" />
+        <option value="$PROJECT_DIR$/src/app/login.vue" />
+        <option value="$PROJECT_DIR$/src/app/forgetPass.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/newPass.vue" />
+        <option value="$PROJECT_DIR$/src/app/percentage.vue" />
+        <option value="$PROJECT_DIR$/src/app/perfecfbink.vue" />
+        <option value="$PROJECT_DIR$/src/app/search.vue" />
+        <option value="$PROJECT_DIR$/src/app/serchtousu.vue" />
+        <option value="$PROJECT_DIR$/src/app/shenhenolist.vue" />
+        <option value="$PROJECT_DIR$/src/app/shensudetails.vue" />
+        <option value="$PROJECT_DIR$/src/app/tj_success.vue" />
+        <option value="$PROJECT_DIR$/src/app/wanma_search.vue" />
+        <option value="$PROJECT_DIR$/dist/static/js/4.b378aee2a3dad9bc5274.js" />
+        <option value="$PROJECT_DIR$/dist/static/js/24.035721db73151eae99e9.js" />
+        <option value="$PROJECT_DIR$/src/app/ws_manage.vue" />
+        <option value="$PROJECT_DIR$/src/app/viewdetails.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/twithdraw.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/app/detail.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/editAdd.vue" />
+        <option value="$PROJECT_DIR$/src/vuex/mixin.js" />
+        <option value="$PROJECT_DIR$/src/app/register.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/companybook.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/address.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchant.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/app/MerchantCard.vue" />
+        <option value="$PROJECT_DIR$/src/app/choseCode.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/phone.vue" />
+        <option value="$PROJECT_DIR$/src/app/index.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchantDetail.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchantList.vue" />
+        <option value="$PROJECT_DIR$/src/app/add_zhifubao.vue" />
+        <option value="$PROJECT_DIR$/src/app/tenant.vue" />
+        <option value="$PROJECT_DIR$/src/app/forms.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/perMain.vue" />
+        <option value="$PROJECT_DIR$/src/app/upload.vue" />
+        <option value="$PROJECT_DIR$/src/app/cash_infer.vue" />
+        <option value="$PROJECT_DIR$/src/app/check.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchant_search.vue" />
+        <option value="$PROJECT_DIR$/src/app/agent.vue" />
+        <option value="$PROJECT_DIR$/src/app/addNext.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/my_card.vue" />
+        <option value="$PROJECT_DIR$/node_modules/vux/src/components/popup-radio/index.vue" />
+        <option value="$PROJECT_DIR$/src/app/addMerchant.vue" />
+        <option value="$PROJECT_DIR$/src/app/Perfectdata.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/business.vue" />
+        <option value="$PROJECT_DIR$/src/app/chose.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-165" />
+    <option name="y" value="165" />
+    <option name="width" value="1932" />
+    <option name="height" value="922" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qudaoshang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qudaoshang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qudaoshang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qudaoshang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qudaoshang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qudaoshang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\liu\qudaoshang\src\components" />
+      <recent name="D:\liu\qudaoshang\src\libs" />
+      <recent name="D:\liu\qudaoshang\src\assets" />
+      <recent name="D:\liu\qudaoshang\src\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bc4f506-2798-4dba-823e-169508c138d9" name="Default" comment="" />
+      <created>1509429887090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509429887090</updated>
+      <workItem from="1513403707069" duration="350000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="350000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-165" y="165" width="1932" height="922" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1440501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2860666" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.vue</url>
+          <line>105</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/Perfectdata.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/perMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tenant.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/upload.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="125" column="60" lean-forward="false" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cash_infer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="276" column="34" lean-forward="false" selection-start-line="276" selection-start-column="34" selection-end-line="276" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MerchantCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sureGive.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/announcement.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/check.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="49" column="10" lean-forward="false" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/merchant_search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="189" column="6" lean-forward="false" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/agent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/addNext.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="214" column="9" lean-forward="false" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/20.fd3e095cdf9d05c0964d.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/person/editAdd.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/24.761631307fd2283cbbf0.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/28.5f72aaec1adb15aca64f.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/16.611b7fee622f7dec8358.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/person/phone.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="47" column="67" lean-forward="false" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/add_bink.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/36.d6f14f00d021ebd1f873.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/app.65fecfa70137c9f585fa.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/7.c744f71b6eb99c57a13a.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/person/attestation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/49.acae9ab81f634f7b9f86.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/13.ad0f0350eae3550573fa.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/17.96af37695d644f37f44b.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/3.9a674ee127bd98e9d2a7.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/52.e9dfa46417e5370f2da7.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/42.7b5d1fb9bfd6cf3b3e8b.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/29.082aff4b19ff48678411.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/vendor.5c1624a1fe8e2242dfcd.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/21.f994040b563932a8089b.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/tj_success.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/11.f2576f61373eba0df82b.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/percentage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/address.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="269" column="14" lean-forward="false" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/0.81760d0935ce2bc52701.js" />
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/1.c66f6000c3e6b0932239.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vux/src/components/popup-radio/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/my_card.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/addMerchant.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="325" column="20" lean-forward="false" selection-start-line="325" selection-start-column="20" selection-end-line="325" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/add_card.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/merchantDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Perfectdata.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="212" column="39" lean-forward="false" selection-start-line="212" selection-start-column="39" selection-end-line="212" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/addCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="13" column="50" lean-forward="false" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/business.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/companybook.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/chose.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="60" column="59" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="135" column="23" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

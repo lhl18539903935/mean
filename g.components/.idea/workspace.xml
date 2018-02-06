@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bc4f506-2798-4dba-823e-169508c138d9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/handCard.jpg" afterPath="$PROJECT_DIR$/src/assets/handCard.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/jingyingxukezheng.jpg" afterPath="$PROJECT_DIR$/src/assets/jingyingxukezheng.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/openbink.jpg" afterPath="$PROJECT_DIR$/src/assets/openbink.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/zhizhao.jpg" afterPath="$PROJECT_DIR$/src/assets/zhizhao.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Hello.vue" afterPath="$PROJECT_DIR$/src/components/Hello.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/abouth.vue" afterPath="$PROJECT_DIR$/src/app/person/abouth.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/addMerchant.vue" afterPath="$PROJECT_DIR$/src/app/addMerchant.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/add_bink.vue" afterPath="$PROJECT_DIR$/src/app/add_bink.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/address.vue" afterPath="$PROJECT_DIR$/src/app/person/address.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/attestation.vue" afterPath="$PROJECT_DIR$/src/app/person/attestation.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/cash_infer.vue" afterPath="$PROJECT_DIR$/src/app/cash_infer.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/code.vue" afterPath="$PROJECT_DIR$/src/app/code.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/data.vue" afterPath="$PROJECT_DIR$/src/app/person/data.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/detail.vue" afterPath="$PROJECT_DIR$/src/app/detail.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/forms.vue" afterPath="$PROJECT_DIR$/src/app/forms.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.vue" afterPath="$PROJECT_DIR$/src/app/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/login.vue" afterPath="$PROJECT_DIR$/src/app/login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/merchant.vue" afterPath="$PROJECT_DIR$/src/app/merchant.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/my_card.vue" afterPath="$PROJECT_DIR$/src/app/person/my_card.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/shenhenolist.vue" afterPath="$PROJECT_DIR$/src/app/shenhenolist.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/tj_success.vue" afterPath="$PROJECT_DIR$/src/app/tj_success.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/person/twithdraw.vue" afterPath="$PROJECT_DIR$/src/app/person/twithdraw.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/wanma_search.vue" afterPath="$PROJECT_DIR$/src/app/wanma_search.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/ws_manage.vue" afterPath="$PROJECT_DIR$/src/app/ws_manage.vue" />
+    </list>
+    <ignored path="qudaoshang.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="qudaoshang" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="myVue" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/app/certify.vue" />
+        <option value="$PROJECT_DIR$/src/app/complaint.vue" />
+        <option value="$PROJECT_DIR$/src/app/editbankcard.vue" />
+        <option value="$PROJECT_DIR$/src/app/give.vue" />
+        <option value="$PROJECT_DIR$/src/app/login.vue" />
+        <option value="$PROJECT_DIR$/src/app/forgetPass.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/newPass.vue" />
+        <option value="$PROJECT_DIR$/src/app/percentage.vue" />
+        <option value="$PROJECT_DIR$/src/app/perfecfbink.vue" />
+        <option value="$PROJECT_DIR$/src/app/search.vue" />
+        <option value="$PROJECT_DIR$/src/app/serchtousu.vue" />
+        <option value="$PROJECT_DIR$/src/app/shenhenolist.vue" />
+        <option value="$PROJECT_DIR$/src/app/shensudetails.vue" />
+        <option value="$PROJECT_DIR$/src/app/tj_success.vue" />
+        <option value="$PROJECT_DIR$/src/app/wanma_search.vue" />
+        <option value="$PROJECT_DIR$/dist/static/js/4.b378aee2a3dad9bc5274.js" />
+        <option value="$PROJECT_DIR$/dist/static/js/24.035721db73151eae99e9.js" />
+        <option value="$PROJECT_DIR$/src/app/ws_manage.vue" />
+        <option value="$PROJECT_DIR$/src/app/viewdetails.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/twithdraw.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/app/detail.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/editAdd.vue" />
+        <option value="$PROJECT_DIR$/src/vuex/mixin.js" />
+        <option value="$PROJECT_DIR$/src/app/register.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/companybook.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/address.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchant.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/app/MerchantCard.vue" />
+        <option value="$PROJECT_DIR$/src/app/choseCode.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/phone.vue" />
+        <option value="$PROJECT_DIR$/src/app/index.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchantDetail.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchantList.vue" />
+        <option value="$PROJECT_DIR$/src/app/add_zhifubao.vue" />
+        <option value="$PROJECT_DIR$/src/app/tenant.vue" />
+        <option value="$PROJECT_DIR$/src/app/forms.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/perMain.vue" />
+        <option value="$PROJECT_DIR$/src/app/upload.vue" />
+        <option value="$PROJECT_DIR$/src/app/cash_infer.vue" />
+        <option value="$PROJECT_DIR$/src/app/check.vue" />
+        <option value="$PROJECT_DIR$/src/app/merchant_search.vue" />
+        <option value="$PROJECT_DIR$/src/app/agent.vue" />
+        <option value="$PROJECT_DIR$/src/app/addNext.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/my_card.vue" />
+        <option value="$PROJECT_DIR$/node_modules/vux/src/components/popup-radio/index.vue" />
+        <option value="$PROJECT_DIR$/src/app/addMerchant.vue" />
+        <option value="$PROJECT_DIR$/src/app/Perfectdata.vue" />
+        <option value="$PROJECT_DIR$/src/app/person/business.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="130" />
+    <option name="y" value="61" />
+    <option name="width" value="1932" />
+    <option name="height" value="922" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qudaoshang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\liu\qudaoshang\src\components" />
+      <recent name="D:\liu\qudaoshang\src\libs" />
+      <recent name="D:\liu\qudaoshang\src\assets" />
+      <recent name="D:\liu\qudaoshang\src\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bc4f506-2798-4dba-823e-169508c138d9" name="Default" comment="" />
+      <created>1509429887090</created>
+      <option name="number" value="Default" />
+      <updated>1509429887090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="130" y="61" width="1932" height="922" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14429176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2870929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.vue</url>
+          <line>105</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/person/my_card.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Perfectdata.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/perMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2189781">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/forms.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17518248">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tenant.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35036495">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/upload.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.753623">
+          <caret line="125" column="60" selection-start-line="125" selection-start-column="60" selection-end-line="125" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/cash_infer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21167883">
+          <caret line="276" column="34" selection-start-line="276" selection-start-column="34" selection-end-line="276" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/MerchantCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.08759124">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/sureGive.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/announcement.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7080292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/check.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35036495">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/merchant_search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="189" column="6" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/agent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.693069">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/addNext.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.173913">
+          <caret line="214" column="9" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36350363">
+          <caret line="123" column="21" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/20.fd3e095cdf9d05c0964d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2444.8914">
+          <caret line="16" column="737071" selection-start-line="16" selection-start-column="737063" selection-end-line="16" selection-end-column="737071" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/editAdd.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7826085">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/24.761631307fd2283cbbf0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2567.1738">
+          <caret line="16" column="737052" selection-start-line="16" selection-start-column="737044" selection-end-line="16" selection-end-column="737052" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/28.5f72aaec1adb15aca64f.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2627.8262">
+          <caret line="16" column="738172" selection-start-line="16" selection-start-column="737039" selection-end-line="16" selection-end-column="737047" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/16.611b7fee622f7dec8358.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2626.1956">
+          <caret line="16" column="737143" selection-start-line="16" selection-start-column="737135" selection-end-line="16" selection-end-column="737143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/phone.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1449275">
+          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/add_bink.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9565215">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/36.d6f14f00d021ebd1f873.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="88.021736">
+          <caret line="0" column="45765" selection-start-line="0" selection-start-column="44857" selection-end-line="0" selection-end-column="44865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/app.65fecfa70137c9f585fa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="307.17392">
+          <caret line="0" column="142858" selection-start-line="0" selection-start-column="45837" selection-end-line="0" selection-end-column="45845" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/7.c744f71b6eb99c57a13a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2639.8914">
+          <caret line="16" column="743366" selection-start-line="16" selection-start-column="743358" selection-end-line="16" selection-end-column="743366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/attestation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3913045">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/49.acae9ab81f634f7b9f86.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="54.347828">
+          <caret line="0" column="35014" selection-start-line="0" selection-start-column="35006" selection-end-line="0" selection-end-column="35014" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/13.ad0f0350eae3550573fa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7371601">
+          <caret line="16" column="677514" selection-start-line="16" selection-start-column="677514" selection-end-line="16" selection-end-column="677514" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/17.96af37695d644f37f44b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1389728">
+          <caret line="16" column="693570" selection-start-line="16" selection-start-column="737143" selection-end-line="16" selection-end-column="737151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/3.9a674ee127bd98e9d2a7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6495468">
+          <caret line="16" column="741205" selection-start-line="16" selection-start-column="740110" selection-end-line="16" selection-end-column="740118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/52.e9dfa46417e5370f2da7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5468278">
+          <caret line="0" column="22942" selection-start-line="0" selection-start-column="22730" selection-end-line="0" selection-end-column="22738" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/42.7b5d1fb9bfd6cf3b3e8b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51359516">
+          <caret line="0" column="48293" selection-start-line="0" selection-start-column="47653" selection-end-line="0" selection-end-column="47661" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/29.082aff4b19ff48678411.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4531722">
+          <caret line="0" column="1552" selection-start-line="0" selection-start-column="1552" selection-end-line="0" selection-end-column="1552" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/vendor.5c1624a1fe8e2242dfcd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46827793">
+          <caret line="29" column="4120" selection-start-line="29" selection-start-column="3733" selection-end-line="29" selection-end-column="3734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/21.f994040b563932a8089b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1166.0435">
+          <caret line="16" column="669035" selection-start-line="16" selection-start-column="669035" selection-end-line="16" selection-end-column="669035" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/tj_success.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.521739">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/11.f2576f61373eba0df82b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="202.26585">
+          <caret line="16" column="737427" selection-start-line="16" selection-start-column="737419" selection-end-line="16" selection-end-column="737427" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/percentage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04379562">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47013783">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/address.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.051095">
+          <caret line="269" column="14" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/0.81760d0935ce2bc52701.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2265861">
+          <caret line="16" column="741856" selection-start-line="16" selection-start-column="741856" selection-end-line="16" selection-end-column="741856" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/blue-1/dist/static/js/1.c66f6000c3e6b0932239.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2717.8262">
+          <caret line="16" column="741016" selection-start-line="16" selection-start-column="741008" selection-end-line="16" selection-end-column="741016" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vux/src/components/popup-radio/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26277372">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/my_card.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5693431">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/addMerchant.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23211679">
+          <caret line="325" column="20" selection-start-line="325" selection-start-column="20" selection-end-line="325" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/add_card.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04379562">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/merchantDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Perfectdata.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="212" column="39" selection-start-line="212" selection-start-column="39" selection-end-line="212" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/addCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4014598">
+          <caret line="13" column="50" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/business.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/person/companybook.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510833344748" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

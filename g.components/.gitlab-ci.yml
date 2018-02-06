@@ -1,0 +1,14 @@
+pages:
+  cache:
+    paths:
+    - node_modules/
+  stage: deploy
+  script: 
+  - npm install --registry=http://registry.npm.taobao.org
+  - npm run build
+  - mkdir .public
+  - cp -r dist/* .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public

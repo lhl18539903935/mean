@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emoji</title>
+</head>
+<body>
+<a href="https://github.com/rongcloud/websdk-demo/blob/master/emoji.html" class="get-source">获取源码</a>
+<style>
+body{
+    font-family:arial;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.42857143;
+}
+.chatbox {
+    margin-bottom: 20px;
+}
+.get-source {
+    text-decoration:none;
+    background:#000;
+    color:#fff;
+    padding:10px 30px;
+    border-radius:5px;
+    position:fixed;
+    right:5px;
+    top:5px;
+}
+pre.code{
+    padding:5px;
+    border:1px solid #ccc;
+    background:#f5f5f5;
+    border-radius:3px;
+    font-family:arial;
+    line-height:2;
+}
+p {
+    margin: 5px;
+    margin-left: 0;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+}
+ol li {
+    margin-bottom: 10px;
+}
+ol ol, ol ul, ul ol, ul ul {
+    padding-left: 17px;
+}
+.support-list{
+    background:#f5f5f5;
+    line-height: 2;
+    font-size: 12px;
+}   
+.doc-content {
+    font-size: 13px;
+    background:#f5f5f5;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a {
+    cursor: pointer;
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    margin: 0;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 9.5px;
+    font-size: 13px;
+}
+.table-bordered, td, tr, th {
+    border: 1px solid #ddd;
+}
+
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: none;
+}
+td, th {
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+th {
+    vertical-align: bottom;
+}
+#chatbox-send {
+    margin-left: 1%;
+}
+
+.chatbox-emoji-btn {
+    margin-left: 1%;
+}
+
+.chatbox-emoji-panel {
+    margin-left: 1%;
+    width: 50%;
+}
+.chatbox-message {
+    margin-left: 1%;
+    width: 50%;
+    height: 150px;
+    font-size: 14px;
+}
+.chatbox-show {
+    float: right;
+    width: 365px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: auto;
+    margin-right: 2%;
+}
+.chatbox-btn {
+    margin-left: 1%;
+    padding: 2px 5px;
+}
+
+</style>
+    
+<script src="emoji.js"></script> 
+
+<h1>Emoji</h1>
+
+<h2>融云消息 message 里的 emoji 说明</h2>
+<ol>
+    <li>
+        <p>发消息时, 必须直接发送emoji原生字符. 如：😀 , 转换方法：symbolToEmoji</p>
+    </li>
+    <li>
+        <p>Web SDK接收消息时接收到的是unicode编码格式, 如：”ef600”.需要转化才能正确显示原生emoji</p>
+    </li>
+</ol>
+
+<h2>Emoji 说明</h2>
+<ol>
+    <li>
+        <p>emoji 插件内置了128个emoji表情的图片, <strong>主要是为了做消息输入框的表情选项, </strong>也可自行扩展配置.</p>
+    </li>
+    <li>
+        <p>
+            支持范围: 
+            <p>(1), IE7+、Edge、Chrome 30+、Firefox 30+、Safari 10+ 等主流桌面版浏览器</p>
+            <p>(2), Android 4.4+系统的Chrome浏览器以及微信浏览器</p>
+            <p>(3), iPhone 操作系统iOS 8.0+ 的Safari浏览器以及微信浏览器</p>
+        </p>
+    </li>
+    <li>
+        <p><a onclick="setupExpand('initCode')">Emoji 初始化设置</a></p>
+        <pre id="initCode" style="display: none">
+    // 直接初始化
+    RongIMLib.RongIMEmoji.init();
+
+    // 通过配置初始化
+    // 表情信息可参考 <a href="http://unicode.org/emoji/charts/full-emoji-list.html">http://unicode.org/emoji/charts/full-emoji-list.html</a>
+    var config = {
+        size: 24, // 大小, 默认 24, 建议15 - 55
+        url: '//f2e.cn.ronghub.com/sdk/emoji-48.png', // 所有 emoji 的背景图片
+        lang: 'zh', // 选择的语言, 默认 zh
+        // 扩展表情
+        extension: {
+            dataSource: {
+                "u1F914":{  
+                    "en":"thinking face", // 英文名称
+                    "zh":"思考", // 中文名称
+                    "tag":"🤔", // 原生emoji
+                    "position":"0px 0px" // 所在背景图位置坐标
+                },
+                .....
+                .....
+            },
+            // 新增 emoji 的背景图 url
+            url: 'https://emojipedia-us.s3.amazonaws.com/thumbs/160/apple/96/thinking-face_1f914.png'
+        }
+    };
+    RongIMLib.RongIMEmoji.init(config);
+
+        </pre>
+    </li>
+
+    <li>
+        <p><a onclick="setupExpand('sdkFuc')">Emoji API</a></p>
+        <table id="sdkFuc" class="table table-bordered" style="display: none; width: 97%">
+            <thead>
+                <tr>
+                    <th>方法</th>
+                    <th>使用示例</th>
+                    <th>方法说明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>list</td>
+                    <td>
+<!-- start -->                        
+                        <pre>
+var list = RongIMEmoji.list;</pre>
+<!-- end -->
+                    </td>
+                    <td>获取所有数据，方便二次开发<br>
+                        [{unicode: "u1F600", emoji: "😀", symbol:"[笑嘻嘻]", shadowDom: span }, { }, ………]
+                    </td>
+                </tr>
+                <tr>
+                    <td>emojiToSymbol(emoji, reg, func)</td>
+                    <td>
+<!-- start -->
+                        <pre>
+var symbol = RongIMEmoji.emojiToSymbol('我是一个表情😁');
+<strong>返回值: 我是一个表情[露齿而笑]</strong></pre>
+<!-- end -->
+                    </td>
+                    <td>将原生emoji转化为对应文字</td>
+                </tr>
+                <tr>
+                    <td>symbolToEmoji(symbol, func)</td>
+                    <td>
+<!-- start -->
+                        <pre>
+var emoji = RongIMEmoji.symbolToEmoji('我是一个表情[露齿而笑]');
+<strong>返回值: 我是一个表情😁</strong>
+var emoji = RongIMEmoji.symbolToEmoji('我是一个表情[露齿而笑]', function(emoji) { 
+    return '[emoji]'; 
+}); 
+<strong>返回值: 我是一个表情[emoji]</strong></pre>
+<!-- end -->
+                    </td>
+                    <td>将emoji的对应名称转化为原生emoji字符</td>
+                </tr>
+                <tr>
+                    <td>emojiToHTML(emoji, size, reg, func)</td>
+                    <td>
+<!-- start -->
+                        <pre>
+var html = RongIMEmoji.emojiToHTML('我是一个表情😁');</pre>
+<!-- end -->
+                    </td>
+                    <td>将原生emoji转化为span标签, 默认标签大小为24px</td>
+                </tr>
+                <tr>
+                    <td>symbolToHTML(symbol, size, reg, func)</td>
+                    <td>
+<!-- start -->
+                        <pre>
+var html = RongIMEmoji.symbolToHTML('我是一个表情[露齿而笑]')</pre>
+<!-- end -->
+                    </td>
+                    <td>将原生emoji转化为span标签</td>
+                </tr>
+                <tr>
+                    <td>isSupportEmoji</td>
+                    <td>
+<!-- start -->
+                        <pre>
+var isSupportEmoji = RongIMEmoji.isSupportEmoji;</pre>
+<!-- end -->                            
+                    </td>
+                    <td>判断是否支持emoji的渲染</td>
+                </tr>
+            </tbody>
+        </table>
+    </li>
+</ol>
+
+
+
+<script>
+function setupExpand(expandId) {
+    var expandDom = document.getElementById(expandId);
+    var display = expandDom.style.display;
+    display = display === "none" ? "block" : "none";
+    expandDom.style.display = display;
+}
+</script>
+
+<div class="chatbox">
+    <h2>发送表情极简demo</h3>
+    <div class="chatbox-tools">
+        <div class="chatbox-tools-emoji">
+            <a href="#emoji" class="chatbox-emoji-btn" id="chatbox-emoji-btn">表情</a>
+            <div class="chatbox-emoji-panel" id="chatbox-emoji-panel"></div>
+        </div>
+    </div>
+    <ol class="chatbox-show" id="chatbox-show"></ol>
+    <textarea class="chatbox-message" id="chatbox-message">今天心情很不错[笑嘻嘻]</textarea>
+    <p> 
+        <a class="chatbox-btn" id="symbol-emoji">SymbolToEmoji</a>
+        <a class="chatbox-btn" id="emoji-symbol" onclick="emojiToSymbol">EmojiToSymbol</a> 
+        <a class="chatbox-btn" id="emoji-html" onclick="emojiToHtml">EmojiToHtml</a> 
+        <a class="chatbox-btn" id="symbol-html" onclick="symbolToHtml">SymbolToHtml</a> 
+    </p>
+    <p>
+        <a class="chatbox-btn" id="symbol-emoji-invalid">SymbolToEmoji( 不支持emoji时, 原生emoji字符显示为 [emoji] )</a>
+    </p>
+</div>
+
+
+<script>
+/*
+发送表情极简Demo
+ */
+(function(){
+    var chatbox = document.getElementById("chatbox-message");
+    var btn = document.getElementById("chatbox-emoji-btn");
+    var panel = document.getElementById("chatbox-emoji-panel");
+    var chatshow = document.getElementById("chatbox-show");
+
+    var RongIMEmoji = RongIMLib.RongIMEmoji;
+
+    var config = {
+        size: 24,
+        lang: 'zh',
+        extension: {
+            dataSource: {
+                u1F914: {
+                    zh: '思考',
+                    en: 'thinking face',
+                    tag: '🤔',
+                    position: '0px 0px'
+                }
+            },
+            url: 'https://emojipedia-us.s3.amazonaws.com/thumbs/160/apple/96/thinking-face_1f914.png'
+        }
+    };
+
+    RongIMEmoji.init(config);
+    appendChild('init: 初始化RongIMEmoji');
+    
+    btn.onclick = function(){
+        panel.style.display = "block";
+        var emojis = getEmojiDetailList();
+        bindClickEmoji(emojis);
+        return false;
+    };
+
+    var symbolToEmojiBtn = document.getElementById("symbol-emoji");
+    symbolToEmojiBtn.onclick = function(){
+        var message = chatbox.value;
+        message = RongIMEmoji.symbolToEmoji(message);
+        appendChild('symbolToEmoji: ' + message);
+        return false;
+    };
+
+    var emojiToSymbol = document.getElementById("emoji-symbol");
+    emojiToSymbol.onclick = function(){
+        var message = chatbox.value;
+        message = RongIMEmoji.emojiToSymbol(message);
+        appendChild('emojiToSymbol: ' + message);
+        return false;
+    };
+
+
+    var emojiToHtmlBtn = document.getElementById("emoji-html");
+    emojiToHtmlBtn.onclick = function(){
+        var message = chatbox.value;
+        message = RongIMEmoji.emojiToHTML(message, 33);
+        appendChild('emojiToHtml: ' + message);
+        return false;
+    };
+
+    var symbolToHtmlBtn = document.getElementById("symbol-html");
+    symbolToHtmlBtn.onclick = function(){
+        var message = chatbox.value;
+        message = RongIMEmoji.symbolToHTML(message);
+        appendChild('symbolToHtml: ' + message);
+        return false;
+    };
+
+    var symbolToEmojiInvalid = document.getElementById("symbol-emoji-invalid");
+    symbolToEmojiInvalid.onclick = function() {
+        var message = chatbox.value;
+        var isSupportEmoji = RongIMEmoji.isSupportEmoji;
+        message = RongIMEmoji.symbolToEmoji(message, function(emoji) {
+            return isSupportEmoji ? emoji : '<span style="color: rgb(182, 182, 182)">[emoji]</span>';
+        });
+        appendChild('symbolToEmoji: ' + message);
+        return false;
+    };
+
+
+    function appendChild(text) {
+        var div = document.createElement('div');
+        div.innerHTML = '<li>' + text + '</li>';
+        var child = div.childNodes[0];
+        chatshow.appendChild(child);
+    }
+
+    function getEmojiDetailList() {
+        var shadowDomList = [];
+        for (var i = 0; i < RongIMEmoji.list.length; i++) {
+            var value = RongIMEmoji.list[i];
+            shadowDomList.push(value.node);
+        }
+        return shadowDomList;
+    }
+
+    function bindClickEmoji(emojis) {
+        for(var i=0;i<emojis.length;i++){
+            var emojiHtml = emojis[i];
+            panel.appendChild(emojiHtml);
+            emojiHtml.onclick = clickEmoji;
+        }
+    }
+
+    function clickEmoji(event) {
+        var e = event || window.event;
+        var target = e.target || e.srcElement;
+        if (document.all && !document.addEventListener === false) {
+            console.log(target);
+        }
+        chatbox.value = chatbox.value + target.getAttribute("name");
+    }
+
+
+})();
+</script>
+
+</body>
+</html>
