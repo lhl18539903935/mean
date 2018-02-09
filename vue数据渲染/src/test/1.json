@@ -1,0 +1,506 @@
+[
+  {
+    "total_page": 23,
+    "current_page": 1,
+    "data": [
+      {
+        "id": 9,
+        "type": "Header_style46",
+        "draggable": true,
+        "sort": 0,
+        "content": {
+          "showType": "1",
+          "modulePadding": 0,
+          "dataset": [
+            {
+              "link": "http://j.diankuai.com/Magazine/lists/id/255/sid/119.html",
+              "linkType": 4,
+              "showtitle": "美家优装",
+              "title": "美家优装",
+              "subtitle": "女装",
+              "pic": "http://tp.huileyi.com/07/e1/119/2017-07/5979a5a8b1d5a.jpg"
+            },
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "白金早礼",
+              "title": "",
+              "subtitle": "童装",
+              "pic": "/PublicMob/images/mob/37banner01.jpg"
+            },
+            {
+              "linkType": 12,
+              "link": "/Item/item_class",
+              "title": "商品分类",
+              "showtitle": "商品分类",
+              "pic": "http://tp.huileyi.com/07/e1/119/2017-12/5a449e0437648.jpg"
+            },
+            {
+              "linkType": 0,
+              "link": "",
+              "title": "",
+              "showtitle": "",
+              "pic": "http://tp.huileyi.com/07/e1/119/2017-12/5a44b016d5c97.jpg"
+            },
+            {
+              "linkType": 0,
+              "link": "",
+              "title": "",
+              "showtitle": "",
+              "pic": "http://tp.huileyi.com/07/e1/119/2017-09/59cdbe9884b18.jpg"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": 10,
+        "type": "Header_style46_nav",
+        "draggable": true,
+        "sort": 1,
+        "content": {
+          "modulePadding": 5,
+          "dataset": [
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "店铺主页",
+              "pic": "/PublicMob/images/mob/37nav_img_01.png",
+              "title": "店铺主页"
+            },
+            {
+              "link": "http://j.diankuai.com/Item/group/id/1358/sid/119.html",
+              "linkType": 2,
+              "showtitle": "婚纱",
+              "pic": "/PublicMob/images/mob/37nav_img_02.png",
+              "title": "婚纱"
+            },
+            {
+              "link": "/User/index",
+              "linkType": 7,
+              "showtitle": "会员主页",
+              "pic": "/PublicMob/images/mob/37nav_img_03.png",
+              "title": "会员主页"
+            },
+            {
+              "link": " /Item/lists",
+              "linkType": 10,
+              "showtitle": "全部商品",
+              "pic": "/PublicMob/images/mob/37nav_img_04.png",
+              "title": "全部商品"
+            },
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "签到",
+              "pic": "/PublicMob/images/mob/37nav_img_05.png"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 2,
+    "data": [
+      {
+        "id": 10,
+        "type": "Header_style46_nav",
+        "draggable": true,
+        "sort": 1,
+        "content": {
+          "modulePadding": 5,
+          "dataset": [
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "店铺主页",
+              "pic": "/PublicMob/images/mob/37nav_img_01.png",
+              "title": "店铺主页"
+            },
+            {
+              "link": "http://j.diankuai.com/Item/group/id/1358/sid/119.html",
+              "linkType": 2,
+              "showtitle": "婚纱",
+              "pic": "/PublicMob/images/mob/37nav_img_02.png",
+              "title": "婚纱"
+            },
+            {
+              "link": "/User/index",
+              "linkType": 7,
+              "showtitle": "会员主页",
+              "pic": "/PublicMob/images/mob/37nav_img_03.png",
+              "title": "会员主页"
+            },
+            {
+              "link": " /Item/lists",
+              "linkType": 10,
+              "showtitle": "全部商品",
+              "pic": "/PublicMob/images/mob/37nav_img_04.png",
+              "title": "全部商品"
+            },
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "签到",
+              "pic": "/PublicMob/images/mob/37nav_img_05.png"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": "20171228153247447",
+        "type": 1,
+        "draggable": true,
+        "sort": 2,
+        "content": {
+          "fulltext": "&lt;p&nbsp;style=&quot;text-align:&nbsp;center;&quot;&gt;&lt;strong&gt;好礼大放送&lt;/strong&gt;&lt;/p&gt;",
+          "modulePadding": 5,
+          "isPreview": true
+        },
+        "ue": null,
+        "dom_conitem": null,
+        "dom_ctrl": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 2,
+    "data": [
+      {
+        "id": 10,
+        "type": "Header_style46_nav",
+        "draggable": true,
+        "sort": 1,
+        "content": {
+          "modulePadding": 5,
+          "dataset": [
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "店铺主页",
+              "pic": "/PublicMob/images/mob/37nav_img_01.png",
+              "title": "店铺主页"
+            },
+            {
+              "link": "http://j.diankuai.com/Item/group/id/1358/sid/119.html",
+              "linkType": 2,
+              "showtitle": "婚纱",
+              "pic": "/PublicMob/images/mob/37nav_img_02.png",
+              "title": "婚纱"
+            },
+            {
+              "link": "/User/index",
+              "linkType": 7,
+              "showtitle": "会员主页",
+              "pic": "/PublicMob/images/mob/37nav_img_03.png",
+              "title": "会员主页"
+            },
+            {
+              "link": " /Item/lists",
+              "linkType": 10,
+              "showtitle": "全部商品",
+              "pic": "/PublicMob/images/mob/37nav_img_04.png",
+              "title": "全部商品"
+            },
+            {
+              "link": "/Shop/index",
+              "linkType": 6,
+              "showtitle": "签到",
+              "pic": "/PublicMob/images/mob/37nav_img_05.png"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": "20171228153247447",
+        "type": 1,
+        "draggable": true,
+        "sort": 2,
+        "content": {
+          "fulltext": "&lt;p&nbsp;style=&quot;text-align:&nbsp;center;&quot;&gt;&lt;strong&gt;好礼大放送&lt;/strong&gt;&lt;/p&gt;",
+          "modulePadding": 5,
+          "isPreview": true
+        },
+        "ue": null,
+        "dom_conitem": null,
+        "dom_ctrl": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 3,
+    "data": [
+      {
+        "id": "20171228153247447",
+        "type": 1,
+        "draggable": true,
+        "sort": 2,
+        "content": {
+          "fulltext": "&lt;p&nbsp;style=&quot;text-align:&nbsp;center;&quot;&gt;&lt;strong&gt;好礼大放送&lt;/strong&gt;&lt;/p&gt;",
+          "modulePadding": 5,
+          "isPreview": true
+        },
+        "ue": null,
+        "dom_conitem": null,
+        "dom_ctrl": null
+      },
+      {
+        "id": "201812174829321",
+        "type": 2,
+        "draggable": true,
+        "sort": 3,
+        "content": {
+          "title": "哈哈",
+          "style": 0,
+          "direction": "right",
+          "BackgroundColor": "#fd5b6b",
+          "titleColor": "#8f2222",
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 3,
+    "data": [
+      {
+        "id": "20171228153247447",
+        "type": 1,
+        "draggable": true,
+        "sort": 2,
+        "content": {
+          "fulltext": "&lt;p&nbsp;style=&quot;text-align:&nbsp;center;&quot;&gt;&lt;strong&gt;好礼大放送&lt;/strong&gt;&lt;/p&gt;",
+          "modulePadding": 5,
+          "isPreview": true
+        },
+        "ue": null,
+        "dom_conitem": null,
+        "dom_ctrl": null
+      },
+      {
+        "id": "201812174829321",
+        "type": 2,
+        "draggable": true,
+        "sort": 3,
+        "content": {
+          "title": "哈哈",
+          "style": 0,
+          "direction": "right",
+          "BackgroundColor": "#fd5b6b",
+          "titleColor": "#8f2222",
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 4,
+    "data": [
+      {
+        "id": "201812174829321",
+        "type": 2,
+        "draggable": true,
+        "sort": 3,
+        "content": {
+          "title": "哈哈",
+          "style": 0,
+          "direction": "right",
+          "BackgroundColor": "#fd5b6b",
+          "titleColor": "#8f2222",
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": "20171228153343918",
+        "type": 2,
+        "draggable": true,
+        "sort": 4,
+        "content": {
+          "title": "赢好礼",
+          "style": "0",
+          "direction": "left",
+          "BackgroundColor": "#fd5b6b",
+          "titleColor": "#fff",
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 5,
+    "data": [
+      {
+        "id": "20171228153343918",
+        "type": 2,
+        "draggable": true,
+        "sort": 4,
+        "content": {
+          "title": "赢好礼",
+          "style": "0",
+          "direction": "left",
+          "BackgroundColor": "#fd5b6b",
+          "titleColor": "#fff",
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": "20171228153955853",
+        "type": 6,
+        "draggable": true,
+        "sort": 5,
+        "content": {
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 6,
+    "data": [
+      {
+        "id": "20171228153955853",
+        "type": 6,
+        "draggable": true,
+        "sort": 5,
+        "content": {
+          "modulePadding": 5
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": "20171228155346925",
+        "type": 7,
+        "draggable": true,
+        "sort": 6,
+        "content": {
+          "modulePadding": 5,
+          "dataset": [
+            {
+              "linkType": 11,
+              "link": "http://baidu.com",
+              "title": "",
+              "showtitle": "test百度导航"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  },
+  {
+    "total_page": 23,
+    "current_page": 7,
+    "data": [
+      {
+        "id": "20171228155346925",
+        "type": 7,
+        "draggable": true,
+        "sort": 6,
+        "content": {
+          "modulePadding": 5,
+          "dataset": [
+            {
+              "linkType": 11,
+              "link": "http://baidu.com",
+              "title": "",
+              "showtitle": "test百度导航"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      },
+      {
+        "id": "2017122816496867",
+        "type": 9,
+        "draggable": true,
+        "sort": 7,
+        "content": {
+          "showType": "1",
+          "space": 0,
+          "margin": 5,
+          "modulePadding": 5,
+          "dataset": [
+            {
+              "linkType": 2,
+              "link": "http://j.diankuai.com/Item/group/id/1358/sid/119.html",
+              "title": "婚纱",
+              "showtitle": "婚纱",
+              "pic": "http://tp.huileyi.com/07/e1/119/2017-12/5a44b016d5c97.jpg"
+            },
+            {
+              "linkType": 7,
+              "link": "/User/index",
+              "title": "会员主页",
+              "showtitle": "会员主页",
+              "pic": "http://tp.huileyi.com/07/e1/119/2017-12/5a449e0437648.jpg"
+            }
+          ]
+        },
+        "dom_conitem": null,
+        "dom_ctrl": null,
+        "ue": null
+      }
+    ],
+    "code": 200,
+    "version": "333b817d4e1968283430cd76be7c4761"
+  }
+]
