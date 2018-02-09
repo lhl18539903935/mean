@@ -1,0 +1,7 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+<image class="img" src="../../image/toutiao.png" />
+<button bindtap="asd">123</button>
+<view wx:for="{{arr}}" wx:key="*this">
+  <view>{{item}}</view>
+</view>

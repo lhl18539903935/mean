@@ -1,0 +1,83 @@
+/* pages/home/customerService/customerService.wxss */
+.c-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200rpx;
+  margin-bottom: 24rpx;
+}
+.c-link-i{
+  flex: auto;
+  position:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:content-box;
+  text-decoration:none;
+  line-height:normal;
+  border-radius:0;
+  overflow:visible;
+  color: #333;
+  background-color:transparent;
+}
+.c-link-i::after{
+  content:" ";
+  width:auto;
+  height:auto;
+  position:static;
+  top:auto;
+  left:auto;
+  border:none;
+  -webkit-transform:none;
+  transform:none;
+  -webkit-transform-origin:50% 50% 0;
+  transform-origin:50% 50% 0;
+  box-sizing:content-box;
+  border-radius:0;
+}
+.link-img{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+
+
+
+
+.tab{
+  display: flex;
+  line-height: 100rpx;
+}
+.tab-item{
+  flex: none;
+  width: 25%;
+}
+.tab-slider{
+  transition: transform .3s;
+  border-bottom: 6rpx solid #6594fe;
+  width: 20px;
+}
+.view-box{
+  transition: transform .3s;
+  display: flex;
+  justify-content: flex-start;
+}
+.liset{
+  flex:none;
+  width: 100vw;
+}
+.lis{
+  line-height: 95rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.tt{
+  width: 100%;
+  white-space: nowrap;
+}
+.qq{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}

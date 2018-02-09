@@ -1,0 +1,53 @@
+<!--pages/login/login.wxml-->
+<view class="logo-main">
+  <view class="h1">登录</view>
+  <view class="ovh user">
+    <image class="user-img l" wx:if="{{hasUserInfo}}" src="{{userInfo.avatarUrl}}"></image>
+    <image class="user-img l" wx:else src="../../image/user.png"></image>
+    <text class="user-name l f40">{{userInfo.nickName}}</text>
+  </view>
+    <view class="input ovh bb">
+      <text class="input-t l">账号</text>
+      <input class="l" type="number" placeholder="请输入手机号"/>
+    </view>
+    <view class="input ovh bb">
+      <text class="input-t l">密码</text>
+      <input class="l" type="text" placeholder="请输入密码"/>
+    </view>
+    <view class="button bb">
+      <button class="btn rel bg c-f tc"
+              bindtap="login"
+              loading="{{submit}}">
+        <text class="btn-t f36">登录</text>
+        <text class="btn-t2 dib"></text>
+      </button>
+    </view>
+  <view class="f24">
+    <navigator url="./register/register"
+               open-type="navigate">
+      （开发版）注册
+    </navigator>
+  </view>
+
+</view>
+<view class="bottom bb abs tc">
+  <view class="c-98 f28 other">
+    <navigator class="resetting"
+               hover-class="c-bg"
+               url="./retrieve/retrieve"
+               open-type="navigate">
+      忘记密码
+    </navigator>
+    <text class="line rel"></text>
+    <navigator class="register"
+               hover-class="c-bg"
+               url="./codeLogin/codeLogin"
+               open-type="navigate">
+      验证码登录
+    </navigator>
+  </view>
+  <view class="f24">
+    <text class="c-bd">登录即代表已阅读并同意</text>
+    <text class="c-bg">《惠乐益乐宝App服务协议》</text>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="logo-main">
+  <form class="f30">
+    <view class="input">
+      <input class="input-t"
+             type="number"
+             placeholder="请输入手机号"/>
+    </view>
+    <view class="ovh input">
+      <input class="input-t l"
+             type="number"
+             placeholder="请输入手机号验证码"/>
+      <text class="c-bg r code tc rel"
+            bindtap="clickVerify"
+            wx:if="{{time_show}}">获取验证码</text>
+      <text class="c-b2 r code tc" wx:else>{{last_time}}\t秒</text>
+    </view>
+    <navigator url="../changePhone/changPhone">
+      <button class="submit f32 bg c-f">
+        确定
+      </button>
+    </navigator>
+  </form>
+</view>

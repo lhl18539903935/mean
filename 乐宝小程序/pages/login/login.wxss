@@ -1,0 +1,100 @@
+/* pages/login/login.wxss */
+page{
+  background-color: #fff;
+}
+.h1{
+  font-size: 60rpx;
+  font-weight: 600;
+  margin-bottom: 60rpx;
+}
+.user{
+  margin-top: 60rpx;
+  margin-bottom: 50rpx;
+}
+.user-img{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-right: 25rpx;
+}
+.user-name{
+  line-height: 150rpx;
+  font-size: 35rpx;
+}
+
+.input{
+  height: 120rpx;
+  padding-top: 40rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.input-t{
+  display:block;
+  height:1.4rem;
+  line-height: 1.4rem;
+  text-overflow:clip;
+  overflow:hidden;
+  white-space:nowrap;
+  font-family:UICTFontTextStyleBody;
+  min-height:1.4rem;
+  width: 20%;
+}
+
+.button{
+  width: 100%;
+  padding: 0 20rpx;
+}
+.btn{
+  height: 90rpx;
+  margin-top: 56rpx;
+  border-radius: 90rpx;
+}
+.btn-t{
+  position: absolute;
+  left: 0;
+  right: 0;
+  line-height: 90rpx;
+  width: 120rpx;
+  margin:auto;
+}
+.btn-t2{
+  width: 160rpx;
+}
+.code{
+  right: 0;
+  width: 200rpx;
+}
+.code::after{
+  content: '';
+  position: absolute;
+  left: -20rpx;
+  top: 8rpx;
+  height: 40rpx;
+  border-left: 1rpx solid #f8f8f8;
+}
+
+
+
+
+
+.bottom{
+  bottom: 40rpx;
+  left: 0;
+  width: 100%;
+}
+.other{
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin: 0 auto 30rpx;
+}
+.line::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom: 0;
+  right: 0;
+  margin:auto;
+  height: 24rpx;
+  border-left: 1rpx solid #c7c7c7;
+}

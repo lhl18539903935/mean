@@ -1,0 +1,79 @@
+<view class="page">
+  <navigator url="../noticeDetails/noticeDetails" hover-class="none">
+    <view class="lis b-b">
+      <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用户入驻，更多优惠活动先到先得...</view>
+      <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      <view class="li-box">
+        <image class="li-img" src="../../../image/n1.jpg" ></image>
+        <image class="li-img" src="../../../image/n2.jpg" ></image>
+        <image class="li-img" src="../../../image/n3.jpg" ></image>
+      </view>
+    </view>
+    <view class="lis ovh b-b">
+      <view class="style2-t l">
+        <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用商...</view>
+        <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      </view>
+      <image class="style2-img r" src="../../../image/n4.png"></image>
+    </view>
+    <view class="lis b-b">
+      <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用户入驻，更多优惠活动先到先得...</view>
+      <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      <view class="li-box">
+        <image class="li-img" src="../../../image/n5.jpg" ></image>
+        <image class="li-img" src="../../../image/n6.jpg" ></image>
+        <image class="li-img" src="../../../image/n7.jpg" ></image>
+      </view>
+    </view>
+    <view class="lis b-b">
+      <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用户入驻，更多优惠活动先到先得...</view>
+      <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      <view class="li-box">
+        <image class="li-img" src="../../../image/n1.jpg" ></image>
+        <image class="li-img" src="../../../image/n2.jpg" ></image>
+        <image class="li-img" src="../../../image/n3.jpg" ></image>
+      </view>
+    </view>
+    <view class="lis ovh b-b">
+      <view class="style2-t l">
+        <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用商...</view>
+        <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      </view>
+      <image class="style2-img r" src="../../../image/n4.png"></image>
+    </view>
+    <view class="lis b-b">
+      <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用户入驻，更多优惠活动先到先得...</view>
+      <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      <view class="li-box">
+        <image class="li-img" src="../../../image/n5.jpg" ></image>
+        <image class="li-img" src="../../../image/n6.jpg" ></image>
+        <image class="li-img" src="../../../image/n7.jpg" ></image>
+      </view>
+    </view>
+    <view class="lis b-b">
+      <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用户入驻，更多优惠活动先到先得...</view>
+      <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      <view class="li-box">
+        <image class="li-img" src="../../../image/n1.jpg" ></image>
+        <image class="li-img" src="../../../image/n2.jpg" ></image>
+        <image class="li-img" src="../../../image/n3.jpg" ></image>
+      </view>
+    </view>
+    <view class="lis ovh b-b">
+      <view class="style2-t l">
+        <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用商...</view>
+        <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      </view>
+      <image class="style2-img r" src="../../../image/n4.png"></image>
+    </view>
+    <view class="lis b-b">
+      <view class="f32">乐宝服务正式版上线，预计2018年元月1日正式启用户入驻，更多优惠活动先到先得...</view>
+      <view class="li-time f24 c-98">2017-09-11\n16:23</view>
+      <view class="li-box">
+        <image class="li-img" src="../../../image/n5.jpg" ></image>
+        <image class="li-img" src="../../../image/n6.jpg" ></image>
+        <image class="li-img" src="../../../image/n7.jpg" ></image>
+      </view>
+    </view>
+  </navigator>
+</view>

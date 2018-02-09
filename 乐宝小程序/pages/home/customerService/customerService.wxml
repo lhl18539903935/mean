@@ -1,0 +1,44 @@
+<!--pages/home/customerService/customerService.wxml-->
+<view class="c-link bg-f">
+  <view class="c-link-i tc f24" bindtap="call">
+    <image class="link-img" src="../../../image/customerServicePhone.png"/>
+    <view>客服电话</view>
+  </view>
+  <button class="c-link-i tc f24" open-type="contact">
+      <image class="link-img" src="../../../image/customerServiceMessage.png" />
+      <view>在线客服</view>
+  </button>
+</view>
+
+<view class="w100 ovh bg-f bb" style="height: {{tabHeight}}rpx">
+  <view class="tab tc f32">
+    <block wx:for="{{arr}}" wx:key="{{index}}">
+      <view id="{{index}}"
+            class="tab-item {{activeIndex == index ? 'c-bg' : ''}} b"
+            bindtap="tapClick">
+        <view class="tab-title">{{item.tab}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="tab-slider rel"
+        style="left: {{sliderLeft}}px;transform: translateX({{sliderOffset}}px);">
+  </view>
+
+    <view class="view-box page bb f32 c-6" style="transform: translateX(-{{activeIndex * 100}}vw);">
+      <view class="liset"
+            wx:for="{{arr}}" wx:key="m{{idx}}" wx:for-item="m" wx:for-index="idx1"
+            bindtouchstart="touchStart"
+            bindtouchmove="touchMove"
+            bindtouchend="touchEnd">
+
+        <view class="lis"
+              wx:for="{{arr[idx1].title}}" wx:key="n{{idx2}}" wx:for-item="n" wx:for-index="idx2">
+          <navigator url="../q_a/q_a" hover-class="none">{{n}}</navigator>
+        </view>
+
+      </view>
+    </view>
+
+</view>
+
+

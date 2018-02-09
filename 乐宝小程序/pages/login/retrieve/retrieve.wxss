@@ -1,0 +1,28 @@
+/* pages/login/retrieve/retrieve.wxss */
+page{
+  background-color: #fff;
+}
+.input{
+  border-bottom: 1rpx solid #f8f8f8;
+}
+.input-t{
+  height: 120rpx;
+  line-height: 120rpx;
+}
+.code{
+  line-height: 120rpx;
+  width: 200rpx;
+}
+.code::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40rpx;
+  height: 40rpx;
+  border-left: 1rpx solid #f8f8f8;
+}
+.submit{
+  margin-top: 50rpx;
+  margin-bottom: 100rpx;
+  border-radius: 10rpx;
+}

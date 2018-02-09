@@ -1,0 +1,10 @@
+/* pages/test/test.wxss */
+.img{
+  height: 36rpx;
+  width: 80rpx;
+}
+.txt{
+  width: 80rpx;
+  height: 36rpx;
+  font-size: 30rpx;
+}

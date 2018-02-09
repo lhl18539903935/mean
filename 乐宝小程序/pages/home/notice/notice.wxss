@@ -1,0 +1,29 @@
+/* pages/home/notice/notice.wxss */
+page{
+  background-color: #fff;
+  margin-bottom: 50rpx;
+}
+.lis{
+  padding: 38rpx 0;
+}
+.li-time{
+  margin:20rpx 0 24rpx;
+}
+.li-box{
+  display: flex;
+  justify-content: space-between;
+}
+.li-img{
+  width: 210rpx;
+  height: 150rpx;
+}
+.style2-t{
+  width: 460rpx;
+}
+.style2-img{
+  width: 210rpx;
+  height: 150rpx;
+}
+.f32{
+  text-align: justify;
+}

@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/home/home",
+    "pages/user/changePhone/changPhone",
+    "pages/user/verifyPhone/verifyPhone",
+    "pages/user/userData/userData",
+    "pages/home/noticeDetails/noticeDetails",
+    "pages/home/notice/notice",
+    "pages/test/test",
+    "pages/home/customerService/customerService",
+    "pages/home/q_a/q_a",
+    "pages/login/login",
+    "pages/login/retrieve/retrieve",
+    "pages/login/resetting/resetting",
+    "pages/login/register/register",
+    "pages/login/codeLogin/codeLogin",
+    "pages/manage/manage",
+    "pages/vip/vip"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐宝",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#6594fe",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_h.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "iconPath": "image/manage.png",
+        "selectedIconPath": "image/manage_h.png",
+        "pagePath": "pages/manage/manage",
+        "text": "管理"
+      },
+      {
+        "iconPath": "image/vip.png",
+        "selectedIconPath": "image/vip_h.png",
+        "pagePath": "pages/login/login",
+        "text": "VIP会员"
+      },
+      {
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_h.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  }
+}

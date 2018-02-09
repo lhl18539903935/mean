@@ -1,0 +1,20 @@
+<view class="main page bg-f bb f32">
+  <view class="main-q">Q：你们的结算打款时间</view>
+  <view class="main-a b-b">
+    A：我们是T+1结算（节假日顺延），结算当天出款。
+    通常情况下，工商、农业、中国、建设、招商、北京、中信、平安、兴业等银行出款后2个小时到账，
+    其他银行出款后5个工作日内到账。银行短信不作为到账依据,
+    通常情况下，工商、农业、中国、建设、招商、北京、中信、平安、兴业等银行出款后2个小时到账，
+    其他银行出款后5个工作日内到账。
+  </view>
+  <view class="related f30">
+    <view class="related-t c-3 rel">相关问题</view>
+    <view>你们的结算打款时间是？</view>
+    <view>结算打款时间你没收到是你们的结算？</view>
+    <view>乐分转增失败？</view>
+    <view>提成收益结算？</view>
+  </view>
+</view>
+
+<button class="footer abs bg-f b-t" open-type="contact">在线客服</button>
+

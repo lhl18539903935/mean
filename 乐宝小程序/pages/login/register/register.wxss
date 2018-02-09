@@ -1,0 +1,25 @@
+@import "../login.wxss";
+.bottom1{
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+}
+.bottom1-t{
+  padding: 16rpx 30rpx 30rpx 30rpx;
+  border-radius: 10rpx;
+  background-color: #000;
+  opacity: .68;
+  line-height: .8;
+}
+.footer{
+  bottom: 40rpx;
+  width: 100%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+/* pages/user/userData/userData.wxss */
+page{
+  background-color: #fff;
+}
+.header{
+  height: 330rpx;
+  padding-top: 60rpx;
+}
+
+.user-img{
+}
+.touxiang{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.jin{
+  right: 0;
+  bottom: 6rpx;
+  width: 44rpx;
+  height:40rpx;
+  z-index: 5;
+}
+.icon-xiangji_{
+  top: 0;
+  left: 0;
+  width: 150rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.25);
+  color: #fff;
+  text-align: center;
+}
+.user-name{
+  margin-top: 20rpx;
+}
+.role{
+  display: inline-block;
+  width: 74rpx;
+  height: 32rpx;
+  line-height: 36rpx;
+  border-radius: 4rpx;
+}
+
+
+.li{
+  height: 95rpx;
+  line-height: 95rpx;
+}
+.li-input{
+  height: 95rpx;
+  text-align: right;
+}
+.picker{
+  width: 50%;
+  text-align: right;
+}

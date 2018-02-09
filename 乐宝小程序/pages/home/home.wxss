@@ -1,0 +1,176 @@
+/* pages/home/home.wxss */
+.search-bar {
+  padding: 16rpx 0;
+  display: -webkit-flex;
+  display: flex;
+  width: 90%;
+}
+
+.icon-search {
+  margin-right: 16rpx;
+}
+
+.icon-search_in-box {
+  left: 20rpx;
+  top: 14rpx
+}
+
+
+
+.search-bar__form {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  flex: auto;
+  border-radius: 10rpx;
+  border: 1 rpx solid #e6e6ea
+}
+
+.search-bar__box {
+  padding-left: 60rpx;
+  padding-right: 60rpx;
+  width: 100%;
+  z-index: 1
+}
+
+.search-bar__input {
+  height: 56rpx;
+  line-height: 50rpx;
+  font-size: 28rpx
+}
+
+.icon-clear {
+  top: 0;
+  right: 0;
+  padding: 14rpx 16rpx;
+  font-size: 0
+}
+
+.search-bar__label {
+  top: 4rpx;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 10rpx;
+  color: #9b9b9b;
+  line-height: 50rpx
+}
+
+.search-bar__cancel-btn {
+  margin-left: 20rpx;
+  line-height: 56rpx;
+  color: #09bb07;
+  white-space: nowrap
+}
+
+.icon-msg{
+  padding-top: 18rpx;
+}
+.icon-kefu1{
+  display: inline-block;
+  width: 48rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+}
+.banner{
+  height: 210rpx;
+}
+.banner .wx-swiper-dots.wx-swiper-dots-horizontal{
+  bottom: 0;
+}
+.banner .wx-swiper-dot{
+  width:12rpx;
+  height: 12rpx;
+}
+previous-margin{
+  border: 1px solid red;
+}
+.banner-img{
+  width: 100%;
+  height: 200rpx;
+}
+.classify{
+  white-space: nowrap;
+  width: 100%;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx;
+}
+.classify-item{
+  display: inline-block;
+  width: 25vw;
+  text-align: center;
+  font-size: 26rpx;
+}
+.h-f60{
+  font-size: 54rpx;
+  width: 106rpx;
+  height: 106rpx;
+  line-height: 106rpx;
+  color: #fff;
+  border-radius: 50%;
+  margin: 14rpx 0 24rpx;
+}
+.h-f60:before{
+  /*字体渐变*/
+  /*http://www.zhangxinxu.com/wordpress/2011/04/%E5%B0%8Ftipcss3%E4%B8%8B%E7%9A%84%E6%B8%90%E5%8F%98%E6%96%87%E5%AD%97%E6%95%88%E6%9E%9C%E5%AE%9E%E7%8E%B0/*/
+  z-index: 2;
+  -webkit-mask-image: -webkit-gradient(linear, 0 0, right bottom, from(#ffffff), to(rgba(255, 255, 255, .6)));
+}
+.h-f60.icon-jpmaker{
+  background-color: #6594fe;
+}
+.h-f60.icon-mendianziliao{
+  background-color: #f9c049;
+}
+.h-f60.icon-baobiao{
+  background-color: #fd6c79;
+}
+.h-f60.icon-yixiangkehu{
+  background-color: #35e592;
+}
+.notice{
+  border-top: 1rpx solid #f8f8f8;
+  padding: 26rpx 34rpx 20rpx;
+}
+.notice-img{
+  /*padding: 6rpx 0 4rpx;*/
+  height: 36rpx;
+  width: 80rpx;
+  margin-left: 6rpx;
+}
+.notice-img-t{
+  position: relative;
+  top: -4rpx;
+}
+.notice-t{
+  height: 40rpx;
+  width: 500rpx;
+  line-height: 40rpx;
+}
+.list{
+  margin-top:24rpx;
+  padding: 0 32rpx;
+}
+.lis{
+  padding: 34rpx 0;
+}
+.h-f24{
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 44rpx;
+}
+.icon-my-icon-money{
+  background-color: #deb57f;
+}
+.icon-mendianziliao{
+  background-color: #59b0ad;
+}
+.icon-erweima{
+  background-color: #fca76a;
+}

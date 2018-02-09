@@ -1,0 +1,22 @@
+<!--pages/login/resetting/resetting.wxml-->
+<view class="logo-main">
+  <form class="f30">
+    <view class="input">
+      <input class="input-t"
+             type="text"
+             placeholder="请输入新密码"/>
+    </view>
+    <view class="ovh input">
+      <input class="input-t"
+             type="text"
+             placeholder="请再次输入新密码"/>
+    </view>
+    <navigator url="../login">
+      <button class="submit f32 bg c-f">
+        确定
+      </button>
+    </navigator>
+
+
+  </form>
+</view>

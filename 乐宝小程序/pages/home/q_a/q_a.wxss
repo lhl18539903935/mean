@@ -1,0 +1,35 @@
+/* pages/home/q&a/q_a.wxss */
+.main{
+  margin-top: 24rpx;
+}
+.main-q{
+  line-height: 135rpx;
+}
+.main-a{
+  padding-bottom: 58rpx;
+  text-align: justify;
+}
+.related{
+  padding: 20rpx 0 50rpx;
+  line-height: 50rpx;
+}
+.related-t{
+  line-height: 80rpx;
+  padding-left: 24rpx;
+}
+.related-t:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4rpx;
+  margin: auto;
+  width: 8rpx;
+  height: 24rpx;
+  background-color: #6594fe;
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -10rpx 30rpx #eaeaea;
+}

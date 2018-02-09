@@ -1,0 +1,131 @@
+<!--pages/home/home.wxml-->
+<view class="page ovh bb">
+  <view class="search-bar l rel bb">
+    <view class="search-bar__form rel bg-f">
+      <view class="search-bar__box rel bb">
+        <icon class="icon-search_in-box abs" type="search" size="14"></icon>
+        <input class="search-bar__input"
+               type="text"
+               placeholder="搜索"
+               value="{{inputVal}}"
+               focus="{{inputShowed}}"
+               bindblur="hideInput"
+               bindinput="inputTyping" />
+        <view class="icon-clear abs" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+          <icon type="clear" size="14"></icon>
+        </view>
+      </view>
+      <view class="search-bar__label abs bg-f tc" wx:if="{{!inputShowed}}"  bindtap="showInput">
+        <icon class="icon-search" type="search" size="12"></icon>
+        <view class="dib f30">搜索</view>
+      </view>
+    </view>
+  </view>
+  <view class="icon-msg">
+    <navigator url="./customerService/customerService">
+      <text class="r iconfont icon-kefu1 c-f f36 bg br tc"></text>
+    </navigator>
+  </view>
+</view>
+
+<view class="bg-f">
+<swiper class="banner"
+        indicator-dots
+        circular
+        autoplay
+        interval="4000"
+        indicator-active-color="#6594fe">
+  <swiper-item class="s-item bb"
+               wx:for="{{img}}"
+               wx:for-item="n"
+               wx:key="{{index}}">
+    <image class="banner-img" src="{{n}}"></image>
+  </swiper-item>
+</swiper>
+  <scroll-view class="classify"
+               scroll-x="true">
+    <view class="classify-item">
+      <text class="iconfont bg1 icon-jpmaker dib h-f60"></text>
+      <view>创客管理</view>
+    </view>
+    <view class="classify-item">
+      <text class="iconfont bg2 icon-mendianziliao dib h-f60"></text>
+      <view>商家管理</view>
+    </view>
+    <view class="classify-item">
+      <text class="iconfont bg3 icon-baobiao dib h-f60"></text>
+      <view>报表管理</view>
+    </view>
+    <view class="classify-item">
+      <text class="iconfont bg4 icon-yixiangkehu dib h-f60"></text>
+      <view>意向商家</view>
+    </view>
+    <view class="classify-item">
+      <text class="iconfont bg2 icon-mendianziliao dib h-f60"></text>
+      <view>商家管理</view>
+    </view>
+    <view class="classify-item">
+      <text class="iconfont bg3 icon-baobiao dib h-f60"></text>
+      <view>报表管理</view>
+    </view>
+    <view class="classify-item">
+      <text class="iconfont icon-yixiangkehu dib h-f60"></text>
+      <view>意向商家</view>
+    </view>
+  </scroll-view>
+  <wxs src="./home.wxs" module="str"></wxs>
+  <view class="notice ovh">
+    <view class="dib">
+      <text class="notice-img-t f36">乐宝</text>
+      <image class="notice-img" src="../../image/title.png" />
+    </view>
+    <swiper class="notice-t r f28"
+            circular
+            autoplay
+            vertical
+            capture-catch:touchmove
+            interval="4000">
+      <swiper-item>
+        <navigator url="./notice/notice" hover-class="none">
+          {{str.str('乐宝年终福利大放送，招募中先到先得得得',17)}}
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator url="./notice/notice" hover-class="none">
+        {{str.str('乐宝年终福利大放送',17)}}
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator url="./notice/notice" hover-class="none">
+        {{str.str('乐宝年终福利大放送，招募中先到先得得得',17)}}
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+<view class="list bg-f f32">
+  <view class="lis b-b">
+    <text class="iconfont icon-my-icon-money h-f24"></text>
+    <text>今日利润</text>
+    <text class="r c-0">6682.30</text>
+  </view>
+  <view class="lis b-b">
+    <text class="iconfont icon-gerenziliao bg h-f24"></text>
+    <text>下级服务商</text>
+    <text class="r c-0">56</text>
+  </view>
+  <view class="lis b-b">
+    <text class="iconfont icon-mendianziliao h-f24"></text>
+    <text>激活商家</text>
+    <text class="r c-0">326</text>
+  </view>
+  <view class="lis b-b">
+    <text class="iconfont icon-erweima h-f24"></text>
+    <text>持码数量</text>
+    <text class="r c-0">20</text>
+  </view>
+</view>
+
+
+
+

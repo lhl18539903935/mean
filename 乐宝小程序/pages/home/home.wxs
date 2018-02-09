@@ -1,0 +1,9 @@
+var str = function(v,n) {
+  if(!v) return ''
+  if(v.toString().length > n){
+    return (v.toString().slice(0,n) + '...')
+  }else {
+    return v
+  }
+}
+module.exports.str = str

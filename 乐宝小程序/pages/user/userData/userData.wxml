@@ -1,0 +1,34 @@
+<view class="header tc">
+  <view class="user-img rel dib" bindtap="tou">
+    <image class="touxiang" src="{{touxiang}}"></image>
+    <image class="jin abs" src="../../../image/jin.png"></image>
+    <text class="iconfont icon-xiangji_ abs dib"></text>
+  </view>
+  <view class="user-name f36">{{name}}</view>
+  <view class="role f24 bg c-f tc">创客</view>
+</view>
+<view class="ul page f32">
+  <view class="li b-b">
+    <text>昵称</text>
+    <input class="li-input r c-98"
+           type="text"
+           value="{{name}}"
+           bindblur="nameTap"/>
+  </view>
+  <view class="li b-b">
+    <text>性别</text>
+    <picker class="picker r c-98" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <txext>{{array[index]}}</txext>
+    </picker>
+  </view>
+  <navigator class="li b-b" url="../verifyPhone/verifyPhone" hover-class="none">
+    <text>手机号</text>
+    <input class="li-input r c-98" type="text" value="12312341234" disabled />
+  </navigator>
+  <view class="li b-b">
+    <text>升级服务经理</text>
+  </view>
+  <view class="li b-b">
+    <text>升级服务主管</text>
+  </view>
+</view>

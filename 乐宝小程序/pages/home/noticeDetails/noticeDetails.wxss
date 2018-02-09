@@ -1,0 +1,30 @@
+/* pages/home/noticeDetails/noticeDetails.wxss */
+page{
+  background-color: #fff;
+}
+.page{
+  line-height: 1.6;
+  margin-bottom: 50rpx;
+}
+
+.title{
+  padding-top: 50rpx;
+
+}
+.time{
+  margin:20rpx 0 24rpx;
+}
+.img{
+  margin: 30rpx 0 10rpx;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

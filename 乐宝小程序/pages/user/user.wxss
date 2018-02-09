@@ -1,0 +1,115 @@
+/* pages/user/user.wxss */
+.user-msg{
+  padding-top: 64rpx;
+  padding-bottom: 34rpx;
+}
+.user-img{
+
+}
+.touxiang{
+  width: 124rpx;
+  height: 124rpx;
+}
+.jin{
+  right: 0;
+  bottom: 6rpx;
+  width: 44rpx;
+  height:40rpx;
+}
+.user-name{
+  margin-left:32rpx;
+  padding-top:16rpx;
+  line-height: 1.4;
+}
+.role{
+  bottom:6rpx;
+  display: inline-block;
+  width: 74rpx;
+  height: 32rpx;
+  line-height: 36rpx;
+  border-radius: 4rpx;
+  margin-left:20rpx;
+}
+.left1{
+  line-height: 124rpx;
+}
+.money{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 160rpx;
+  border-top:1rpx solid #f8f8f8;
+}
+.surplus1{
+  border-right: 1rpx solid #f8f8f8;
+}
+.yellow,
+.gules{
+  margin-top: 6rpx;
+  line-height: 40rpx;
+}
+.icon-yue{
+  color: #ffc259;
+}
+.icon-icon{
+  color: #ff7262;
+}
+
+.classify{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24rpx;
+  height: 190rpx;
+}
+.u-f42{
+  display: inline-block;
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 42rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  margin-bottom: 28rpx;
+}
+.u-f42.icon-touzirenrending{
+  background-color: #a0d9f6;
+}
+.u-f42.icon-mendianziliao{
+  background-color: #bfbff9;
+}
+.u-f42.icon-xt3{
+  background-color: #ffcc99;
+}
+.u-f42.icon-huiyuan{
+  background-color: #85e3e3;
+}
+.u-f42:before{
+  /*字体渐变*/
+  /*http://www.zhangxinxu.com/wordpress/2011/04/%E5%B0%8Ftipcss3%E4%B8%8B%E7%9A%84%E6%B8%90%E5%8F%98%E6%96%87%E5%AD%97%E6%95%88%E6%9E%9C%E5%AE%9E%E7%8E%B0/*/
+  z-index: 2;
+  -webkit-mask-image: -webkit-gradient(linear, 0 0, right bottom, from(#ffffff), to(rgba(255, 255, 255, .4)));
+}
+
+
+
+.ul{
+  margin-bottom: 24rpx;
+}
+.li{
+  height: 95rpx;
+  line-height: 95rpx;
+}
+.li-i{
+  margin-right: 20rpx;
+}
+.icon-tuandui{
+  color: #ffac1e;
+}
+.icon-shouquan{
+  color: #d9ad67;
+}
+.icon-yinxingqia{
+  color: #38d6a1;
+}
+

@@ -1,0 +1,82 @@
+
+  <navigator class=" user-msg page bg-f ovh" url="./userData/userData" hover-class="none">
+    <view class="user-img rel dib l">
+      <!--<image class="touxiang" src="../../image/touxiang.png"></image>-->
+      <image class="touxiang br" src="{{userInfo.avatarUrl}}"></image>
+      <image class="jin abs" src="../../image/jin.png"></image>
+    </view>
+    <view class="user-name l">
+      <text class="f36">{{userInfo.nickName}}</text>
+      <text class="role f24 bg c-f tc rel">创客</text>
+      <text class="c-98 f32">\n158****1234</text>
+    </view>
+    <text class="left1 iconfont icon-jiantou-copy-copy r c-98"></text>
+  </navigator>
+  <view class="money ul bg-f tc">
+    <view class="surplus1 w100">
+      <view class="f44">6682</view>
+      <view class="yellow c-98 f24">
+        <text class="iconfont icon-yue"></text>
+        <text>\t我的余额\t</text>
+      </view>
+    </view>
+    <view class="surplus2 w100">
+      <view class="f44">6682</view>
+      <view class="gules c-98 f24">
+        <text class="iconfont icon-icon"></text>
+        <text class="">\t我的乐分</text>
+      </view>
+    </view>
+  </view>
+  <view class="classify bg-f tc">
+    <view class="classify-item">
+      <text class="u-f42 iconfont icon-touzirenrending"></text>
+      <view class="f24">邀请创客</view>
+    </view>
+    <view class="classify-item">
+      <text class="u-f42 iconfont icon-mendianziliao"></text>
+      <view class="f24">招募商家</view>
+    </view>
+    <view class="classify-item">
+      <text class="u-f42 iconfont icon-xt3"></text>
+      <view class="f24">招募经理</view>
+    </view>
+    <view class="classify-item">
+      <text class="u-f42 iconfont icon-huiyuan"></text>
+      <view class="f24">招募会员</view>
+    </view>
+  </view>
+  <view class="ul page bg-f f32">
+    <view class="li b-b">
+      <text class="li-i iconfont icon-shimingrenzheng1 c-bg"></text>
+      <text>实名认证</text>
+    </view>
+    <view class="li b-b">
+      <text class="li-i iconfont icon-qiyerenzheng c-bg"></text>
+      <text>企业认证</text>
+    </view>
+  </view>
+  <view class="ul page bg-f">
+    <view class="li b-b">
+      <text class="li-i iconfont icon-tuandui"></text>
+      <text>我的团队</text>
+    </view>
+    <view class="li b-b">
+      <text class="li-i iconfont icon-shouquan"></text>
+      <text>联合账户授权</text>
+    </view>
+    <view class="li b-b">
+      <text class="li-i iconfont icon-yinxingqia"></text>
+      <text>收款账户</text>
+    </view>
+    <view class="li b-b">
+      <text class="li-i iconfont icon-shensu c-bg"></text>
+      <text>申诉列表</text>
+    </view>
+  </view>
+  <view class="ul page bg-f">
+    <view class="li b-b">
+      <text class="li-i iconfont icon-shezhi c-bg"></text>
+      <text>设置</text>
+    </view>
+  </view>

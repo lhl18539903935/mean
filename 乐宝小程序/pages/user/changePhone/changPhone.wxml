@@ -1,0 +1,18 @@
+<!--pages/user/changePhone/changPhone.wxml-->
+<view class="logo-main">
+  <form class="f30">
+    <view class="input">
+      <input class="input-t"
+             type="number"
+             placeholder="请输入手机号"/>
+    </view>
+    <view class="prompt c-98 f24 ">
+      一个手机只能作为一个账户登录
+    </view>
+    <navigator open-type="navigateBack" delta="2">
+      <button class="submit f32 bg c-f">
+        更换手机号
+      </button>
+    </navigator>
+  </form>
+</view>
