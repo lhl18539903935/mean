@@ -1,0 +1,53 @@
+<!--pages/balance/balance.wxml-->
+<view class="balance">
+<!-- 配送方式 -->
+  <view class="bg">
+    <view class="balance_top">
+      <view class="inline">配送方式</view>
+      <view class="inline corcal" style="border:2px solid #EE9437;padding:10rpx 20rpx;border-radius:5px;margin:0 0 0 20rpx;">快递</view>
+    </view>
+    <navigator url="../address/address" hover-class="none">
+        <view class="bg balance_top " style="border:0" wx:if="{{false}}">请填写收货地址 <view class="jiantou inline rt"></view></view>
+        <view class="bg balance_top " style="border:0" >
+          <view class="inline iconfont icon-dizhi1" style='font-size:40rpx'></view>
+          <view class="inline f12" style='vertical-align:middle;margin:-20rpx 0 0 10rpx;'>
+            <view style='padding:10rpx 0;font-weight:600'> 收货人： {{address.name}} {{address.mobile}}</view>
+            <view>收货地址：{{address.province}}{{address.city}}{{address.area}}</view>
+          </view>
+          <view class="jiantou inline rt" style="margin-top:20rpx;"></view>
+        </view> 
+    </navigator>
+  </view>
+  <!-- 详情 -->
+  <view class="bg balance_detail" wx:for="{{buy_lists}}" wx:key="index">
+    <view style="width:95%;margin:0 auto;">
+          <view class="inline">
+        <image src="{{item.pic_url}}" style='width:200rpx;height:140rpx;margin-right:20rpx;'></image>
+      </view>
+      <view class="inline" style="vertical-align:top;width:69%;">
+        <view style="height:100rpx;">{{item.title}}</view>
+        <view class="inline" style="width:60%;">数量：{{item.num}}</view>
+        <view class="inline corcal" >￥{{item.price}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 运费 -->
+  <view class="bg">
+    <view style='width:95%;margin:0 auto;'>
+      <view class="paddingTop">
+        <view class="inline ">运费</view>
+        <view class="inline corcal rt">￥{{post_fee}}</view>
+      </view>
+      <!-- 留言 -->
+      <view class="paddingTop" style='line-height:60rpx;'>
+        <view class="inline" style="vertical-align:top">买家留言:</view>
+        <textarea  class="inline" style='height:100rpx'  placeholder="选填,可填写您和卖价达成一致的要求"/>
+      </view>
+      <!-- 总计 -->
+      <view class="paddingTop f16" style='text-align:right'>总计：￥{{payment}}</view>  
+     </view>
+    </view>
+
+
+<button class="f16" style="background-color:#ED9537;color:#fff;margin:1rem auto;width:90%;">提交订单</button>
+</view>

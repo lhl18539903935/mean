@@ -1,0 +1,7 @@
+<!--pages/myfans/myfans.wxml-->
+<view class="my_fans">
+  <view class="fans">我要代言</view>
+  <view class="fans_num">粉丝数量(0)</view>
+  <view style='padding-top:20rpx;color:#999;'>暂无数据</view>
+</view>
+

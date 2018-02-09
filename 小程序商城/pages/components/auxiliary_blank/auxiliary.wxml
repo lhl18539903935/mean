@@ -1,0 +1,4 @@
+<!--pages/components/auxiliary_blank /auxiliary_blank .wxml-->
+ <view style="height: {{content.content.height}}px;margin: {{content.content.modulePadding}}px 0">
+    <!--<p>11-11</p>-->
+  </view>

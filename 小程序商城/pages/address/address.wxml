@@ -1,0 +1,29 @@
+<!--pages/address/address.wxml-->
+<view clsas="address_list">
+  <view class="address_content" wx:for="{{addresslist}}" wx:key="index">
+    <view style='width:95%;margin:0 auto;'>
+      <view class="address_detail">
+        <view style="margin-bottom:10rpx;">{{item.name}} {{item.mobile}}</view>
+        <view>{{item.province}} {{item.city}} {{item.area}}</view>
+      </view>
+      <view class="address_bottom">
+         <view class="radio-group inline" bindtap="radioChange" id="{{item.address_id}}" data-index="{{index}}">
+          <view class="radio ">
+             <view class="{{num==index?'red':''}}">设为默认</view> 
+          </view>
+        </view> 
+        <!-- <icon wx:if="{{choose}}" type="success" color="red" data-index="{{index}}"  class="cart-pro-select" bindtap="radioChange"/>
+        <icon wx:else type="circle" class="cart-pro-select" data-index="{{index}}" bindtap="radioChange"/> -->
+        <view class="inline rt">
+          <view id="{{item.address_id}}" bindtap='address_id' class="inline" hover-class='none'>
+            <view class="icon iconfont icon-qiandao inline">\t编辑</view>
+          </view>
+          <view class="icon iconfont icon-shanchu inline" bindtap='detele' id="{{item.address_id}}">\t删除</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- <navigator url="" hover-class='none'> -->
+      <button style='width:95%;margin:2rem auto;' class="f16" bindtap='add_address'>添加新地址</button>
+  <!-- </navigator> -->
+</view>

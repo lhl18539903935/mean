@@ -1,0 +1,28 @@
+<!--pages/edit_address/edit_address.wxml-->
+<!--pages/add_address/add_address.wxml-->
+<view class="bg">
+  <view class="add">
+    <view   class="inline f16 add_left">收货人</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请输入收货人的姓名' bindinput="editname" value="{{name}}"></input>
+  </view>
+  <view class="add">
+    <view   class="inline f16 add_left">手机号码</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请输入收货人联系方式' bindinput="editmobile" value="{{mobile}}"></input>
+  </view>
+  <navigator class="add" url="../editprovince/editprovince" hover-class='nones'>
+      <view   class="inline f16 add_left">收货地区</view>
+      <view class="inline">{{province}}{{city}}{{area}}</view>
+      <view class="inline rt iconfont icon-jiantou-copy-copy" style='margin-top:35rpx;'></view>
+      <view class="inline rt" style='margin:30rpx 20rpx 0 0 ;' wx:if="{{!province}}">请选择</view> 
+  </navigator>
+  <view class="add">
+    <view   class="inline f16 add_left">邮政编码</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请填写邮政编码' bindinput="editemile" value="{{zip}}"></input>
+  </view>
+  <view class="add">
+    <view   class="inline f16 add_left">详细地址</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请填写详细地址' bindinput="editdetail" value="{{address_detail}}"></input>
+  </view>
+</view>
+<button type="primary" style="margin:2rem auto;width:95%;" bindtap='submit'>提交</button>
+

@@ -1,0 +1,136 @@
+/* pages/cart/cart.wxss */
+.detail_content{
+  width:100%;
+}
+.detail{
+  width:100%;
+  background-color: #fff;
+  border-top:1px solid #ddd;
+}
+.cart_detail{
+  width:96%;
+  margin: 0 auto;
+  padding:20rpx 0;
+}
+.class_detail_left{
+  width:35%;
+  height:100rpx;
+  line-height:100rpx;
+  display: inline-block;
+  box-sizing: border-box ;
+}
+.class_detail_left .tishi{
+  width:35%;
+  display: inline-block;
+  text-align: center;
+  background-color: #ddd;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  color:#fff;
+  padding:6rpx 1rpx;
+  margin:0 12rpx 0 0;
+}
+.class_detail_left image{
+  width:120rpx;
+  height:120rpx;
+  vertical-align: middle;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.class_detail_right{
+  width:65%;
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box ;
+}
+.class_detail_right .detail_pay{
+  display: inline-block;
+  color:coral;
+}
+.title{
+  height: 80rpx;
+  font-size: 24rpx;
+}
+.class_detail_right .detail_num{
+  display:inline-block;
+  float:right;
+  margin-right:10rpx;
+}
+.clear_detail{
+  width:100%;
+  border-top:2rpx solid #ddd;
+  background-color: #fff;
+}
+.clear_btn{
+  width:40%;
+  font-size: 24rpx;
+  margin-top:16rpx;
+  padding:10rpx 0;
+  color:#999999;
+  background-color: #fff;
+}
+.pay_bar{
+  width:100%;
+  height:90rpx;
+  position: fixed;
+  bottom:0px;
+  background-color: #fff;
+}
+.foot_bar{
+  margin:0 auto;
+  width: 100%;
+}
+.check_right{
+  text-align: right;
+  display:inline-block;
+  height:100rpx;
+}
+.pay_left{
+  width:80%;
+  height:90rpx;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.checkbox{
+  width:100%;
+  height:90rpx;
+  line-height:90rpx;
+  margin-left:10rpx;
+  vertical-align: top
+}
+.pay_right{
+  width:20%;
+  color:#fff;
+  text-align: center;
+  line-height:90rpx; 
+  vertical-align: top;
+  display:inline-block;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+.pay_color{
+  font-weight: 400;
+  color:coral;
+}
+.yunfei{
+  font-size: 24rpx;
+  color:#999;
+}
+.inline{
+  display: inline-block;
+}
+.lf{
+  float:left;
+}
+.rt{
+  float:right;
+}
+.red{
+  background-color: red!important;  
+}
+.detail_btn{
+  margin:0 5rpx 0 0;
+  padding:10rpx 20rpx;
+  background-color: #F5F5F5;
+}

@@ -1,0 +1,60 @@
+/* pages/detail/detail.wxss */
+.lf{
+  float:left;
+}
+.rt{
+  float:right;
+}
+.inline{
+  display:inline-block;
+}
+.f12{
+  font-size: 24rpx;
+}
+.order_detail{
+  width: 100%;
+}
+.order_detail_top{
+  width: 95%;
+  margin: 0 auto;
+  padding:20rpx 0;
+}
+.order{
+  background-color: #fff;
+  width:100%;
+  padding:40rpx 0;
+  border-bottom:2rpx solid #E6E5EA;
+  border-top:2rpx solid #E6E5EA;
+}
+.order_img{
+  width:140rpx;
+  height:140rpx;
+  margin:0 30rpx;
+}
+.red_color{
+  color:#C3000D;
+}
+.yunfei{
+  width: 100%;
+  padding: 40rpx 0;
+  margin-top:0.5rem;
+  background-color: #fff;
+  border-bottom:2rpx solid #E6E5EA;
+  border-top:2rpx solid #E6E5EA;
+}
+.yunfei_bottom{
+  padding-top:20rpx;
+}
+.yunfei_top, .yunfei_bottom{
+  width:95%;
+  margin: 0 auto;
+}
+.order_address{
+  margin-top:0.5rem ;
+  padding:25rpx;
+  background-color: #fff;
+}
+.address_top{
+  padding-bottom: 25rpx;
+  border-bottom:2rpx solid #E6E5EA;
+}

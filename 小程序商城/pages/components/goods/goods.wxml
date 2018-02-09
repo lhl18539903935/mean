@@ -1,0 +1,69 @@
+<!--v4 商品-->
+<!--布局1-->
+    <view class="u1" wx:if="{{content.content.layout == 1}}" style="margin: {{content.content.modulePadding}}px 0">
+      <view
+        wx:for="{{content.content.goodslist}}" wx:key="index"
+        class="{{(content.content.goodstyle == 2)?'yangshi2':''}} {{(content.content.goodstyle != 2)?'yangshi1':''}}">
+          <!-- <img :src="n.pic | imgs"> -->
+          <image class="img" src="{{item.pic}}"></image>
+          <view 
+          class="title {{(content.content.goodstyle == 4)?'conter':''}} {{(content.content.titleLine == 0)?'title-1':''}}" wx:if="{{content.content.showName == 1}}">
+          {{item.title}}</view>
+          <view wx:if="{{content.content.goodstyle == 2}}" class="f10" style="color: #888;margin-bottom: 5px;">已售：<view style="display:inline-block">5</view></view>
+          <view class="f14" wx:if="{{content.content.goodstyle != 4 && content.content.goodstyle!= 5}}"><view style="display:inline-block" class="del8">￥{{item.original_price}}</view></view>
+          <view style="overflow: hidden" wx:if="{{content.content.goodstyle != 4 && content.content.goodstyle != 5}}">
+            <view style="display:inline-block"  class="left f16 color {{(content.content.priceBold == 1)?'d':''}}">￥{{item.price}}</view>
+            <view style="display:inline-block" wx:if="{{content.content.goodstyle == 1 || content.content.goodstyle == 3 && content.content.sale_num}}" class="right"><view style="display:inline-block"  class="n">{{content.content.sale_num}}</view>件已售</view>
+            <view style="display:inline-block" wx:if="{{content.content.goodstyle == 2}}" class="iconfont icon-gouwuche right"></view>
+          </view>
+        <view wx:if="{{content.content.goodstyle == 5}}" style="overflow: hidden">
+          <view style="display:inline-block" class="f16 color {{(content.content.priceBold == 1)?'d':''}}">￥{{item.price}}</view>
+          <view style="display:inline-block" class="f2 del8">￥{{item.original_price}}</view>
+          <view style="display:inline-block" class="zhe right">折</view>
+        </view>
+        <view wx:if="{{content.content.goodstyle == 3}}" class="btn">{{content.content.goodstxt}}</view>
+        <view wx:if="{{content.content.goodstyle == 4}}" class="qian f18 {{(content.content.priceBold == 1)?'d':''}}">￥{{item.price}}</view>
+      </view>
+    </view>
+    <view class="clearfix"></view>
+    <!--布局2-->
+     <view class="u2-1" wx:if="{{content.content.layout == 2 && content.content.layoutstyles == 1}}">
+        <view class="u2-1-li"
+          wx:for="{{content.content.goodslist}}" wx:key="index">
+          <view class="img">
+            <!-- <img :src="n.pic | imgs"> -->
+            <image src="{{item.pic}}" class="u2-1-img"></image>
+            <view class="li2" wx:if="{{content.content.sale_num}}">已售：{{content.sale_num}}</view>
+          </view>
+          <view  class="title {{(content.content.titleLine == 0)?'title-1':''}}" wx:if="{{content.content.showName == 1}}">{{item.title}}</view>
+          <view class="qian">
+            <view class="f18 color" style='display:inline-block'> ￥{{item.price}} </view>
+            <view class="f12" style="display:inline-block">原价：<view style="display:inline-block" class="del8">￥{{item.original_price}}</view></view>
+          </view>
+        </view>
+      </view>
+    <view class="u2-2" wx:if="{{content.content.layout == 2 && content.content.layoutstyles == 2}}">
+      <view
+        wx:for="{{content.content.goodslist}}" wx:key="index">
+        <!-- <img :src="n.pic | imgs"> -->
+        <image src="{{item.pic}}"></image>
+        <view class="title f16" wx:if="{{content.content.showName == 1}}">{{item.title}}</view>
+        <view class="f12"><view style="display:inline-block" class="del8">￥{{item.original_price}}</view></view>
+        <view class="n2-2-q">
+          <view class="left f16 color">{{item.price}}</view>
+          <view class="right f12" wx:if="{{content.content.sale_num}}">已售：<view style="display:inline-block">{{content.content.sale_num}}</view></view>
+        </view>
+      </view>
+    </view>
+    <view class="u3" wx:if="{{content.content.layout == 3}}">
+      <view class="u3-li"
+        wx:for="{{content.content.goodslist}}" wx:key="index">
+        <!-- <img :src="n.pic | imgs" :style="'calc(100vw / '+content.goodslist.length+')'"> -->
+        <!-- <image src="{{item.pic}}"></image> -->
+        <image src="{{item.pic}}" class="u3-img"></image>
+        <view class="title" wx:if="{{content.content.showName == 1}}">{{item.title}}</view>
+        <view><view style="display:inline-block" class="del8">￥{{item.original_price}}</view></view>
+        <view class="color"><view style="display:inline-block">￥{{item.price}}</view></view>
+      </view>
+    </view> 
+     <view class="clearfix"></view>

@@ -1,0 +1,10 @@
+<!--pages/provinces/provinces.wxml-->
+<view style='background-color:#fff;margin-top:2rem;'>
+<view class="title">
+  <view class="width inline">{{province}}</view><view class="width inline">{{cityname}}</view><view class="width inline">{{areaname}}</view>
+</view>
+  <view class="province" wx:if="{{num==0}}" wx:for="{{provinces}}" wx:key="index" bindtap='choose_city' data-index="{{index}}" id="{{item.province_id}}" >{{item.province_name}}</view>
+  <view class="city" wx:if="{{num==1}}"  wx:for="{{city}}" wx:key="index" bindtap='choose_area'  data-index="{{index}}" id="{{item.city_id}}">{{item.city_name}}</view>
+  <view class="area" wx:if="{{num==2}}" wx:for="{{area}}" wx:key="index" bindtap='choose'   data-index="{{index}}" >{{item.area_name}}</view>
+</view>
+

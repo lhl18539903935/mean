@@ -1,0 +1,86 @@
+<!--index.wxml-->
+  <template name="Header_style46">  
+    <swiper_components content="{{item}}" ></swiper_components>
+  </template>
+  <!-- 热卖 -->
+  <template name="Header_style46_goods">  
+    <hotsale content="{{item}}"></hotsale>
+  </template>
+    <template name="1">  
+    <view></view>
+  </template>
+    <!-- 标题栏 -->
+  <template name="2">  
+    <titlebar content="{{item}}"></titlebar> 
+  </template>
+  <!-- 默认导航 -->
+  <template name="Header_style46_nav">  
+    <nav content="{{item}}"></nav>
+  </template>
+  <!-- 商品 -->
+  <template name="4">  
+    <goods content="{{item}}"></goods>
+  </template>
+    <!-- 商品 -->
+  <template name="5">  
+    <view content="{{item}}">--------------</view>
+  </template>
+  <!-- 搜索 -->
+  <template name="6">  
+    <search content="{{item}}"></search>
+  </template>
+  <!-- 文本导航 -->
+  <template name="7">  
+    <text-bar content="{{item}}"></text-bar>
+  </template>
+  <!-- 图片导航 -->
+  <template name="8">  
+    <img_bar content="{{item}}"></img_bar>
+  </template>
+  <!-- 图片广告 -->
+  <template name="9">  
+    <advert content="{{item}}"></advert>
+  </template>
+  <!-- 分割线 -->
+  <template name="10">  
+    <cutoff content="{{item}}"></cutoff>
+  </template>
+  <!-- 辅助空白 -->
+  <template name="11">  
+    <auxiliary_blank content="{{item}}"></auxiliary_blank>
+  </template>
+  <!-- 顶部导航 -->
+  <template name="12">  
+    <topbar content="{{item}}"></topbar>
+  </template>
+  <!-- 橱窗 -->
+  <template name="13">  
+    <shopwindow content="{{item}}"></shopwindow>
+  </template>
+  <!-- 广告 -->
+  <template name="16">  
+    <marquee content="{{item}}"></marquee>
+  </template>
+  <!-- 卡片列表 -->
+  <template name="17">  
+    <classify content="{{item}}"></classify>
+  </template>
+  <template name="18">  
+    <view></view>
+  </template>
+  <template name="19">  
+    <view></view>
+  </template>
+    <!-- 推荐商品 -->
+  <template name="20">  
+    <groom content="{{item}}"></groom>
+  </template>
+    <!-- 商品分类 -->
+  <template name="21">  
+    <cardlist content="{{item}}"></cardlist>
+  </template>
+    <!-- 滑动导航 -->
+  <template name="22">  
+    <scrollbar content="{{item}}"></scrollbar>
+  </template>
+

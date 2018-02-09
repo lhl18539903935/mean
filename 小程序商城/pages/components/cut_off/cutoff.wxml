@@ -1,0 +1,5 @@
+<!--pages/components/cut_off/cutoff.wxml-->
+  <view style="padding: 15px 0">
+<!--<p>10-10</p>-->
+    <view class="cut_p"></view>
+  </view>

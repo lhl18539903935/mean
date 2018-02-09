@@ -1,0 +1,20 @@
+<!--pages/components/shopwindow/shopwindow.wxml-->
+  <view style="margin:{{content.content.modulePadding}}px 0;min-height:160px;">
+    <view class="main0" wx:if="{{content.content.layout == 0}}">
+      <view class="shop_div m{{index}}"
+        wx:for="{{content.content.dataset}}" wx:key="index">
+        <!-- <img class="shopimg" :src="n.pic | imgs"> -->
+        <image class="shopimg"  src="{{item.pic}}"></image>
+        <view class="shop_p" wx:if="{{item.showTitle == 1}}">{{item.title}}</view>
+      </view>
+    </view>
+    <view class="main1" wx:if="{{content.content.layout == 1}}">
+      <view class="m main1_div" wx:for="{{content.content.dataset}}" wx:key="index">
+        <!-- <img :src="n.pic | imgs"> -->
+        <image class="shopimg"  src="{{item.pic}}"></image>
+        <view class="shop_p" wx:if="{{item.showTitle == 1}}">{{item.title}}</view>
+      </view>
+    </view>
+    <view style="clear: both"></view>
+    <!--<p>{{content}}</p>-->
+  </view>

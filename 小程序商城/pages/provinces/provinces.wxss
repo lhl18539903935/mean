@@ -1,0 +1,19 @@
+/* pages/provinces/provinces.wxss */
+.province, .city, .area, .title{
+  width:95%;
+  padding:20rpx 0;
+  margin:0 auto;
+  border-bottom:2rpx solid #ddd;
+}
+.inline{
+  display: inline-block;
+}
+.title{
+  width:100%;
+  position: fixed;top:0;
+  background-color: #fff;
+}
+.width{
+  width:30%;
+  text-align:center;
+}

@@ -1,0 +1,49 @@
+/* pages/components/swiper/swiper.wxss */
+@import '../../../app.wxss';
+.iconfont{
+  position: relative;
+  top: -3px;
+}
+.search{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 10px 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  /* background: url("./image/download_01.png") repeat-x; */
+}
+.search .img{
+  margin:5px 10px;
+  text-align: center;
+}
+input{
+  width: calc(100vw - 400rpx);
+  height: 24rpx;
+  margin-top: 0rpx; 
+   padding:16rpx 10rpx;
+  padding-left: 70rpx;
+  border: none;
+  outline:none;
+  color:#000;
+}
+.inpt{
+  position: relative;
+  background-color: #fff;
+  height:80rpx;
+  line-height: 80rpx;
+  border-radius: 10rpx;
+}
+.icon-fangdajing{
+  position: absolute;
+  left: 8px;
+  top: 5rpx;
+  font-size: 18px;
+  color: #666;
+  z-index: 10;
+}
+  .f12{font-size: 12px}

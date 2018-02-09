@@ -1,0 +1,37 @@
+<view class="main">
+    <view wx:if="{{hasList}}">
+    <view class="iconfont icon-shanchu" style='font-size:42rpx;text-align:right' bindtap='clear'></view>
+        <view class="cart-box">
+            <view class="cart-list" wx:for="{{carts}}" wx:key="{{index}}">
+                <icon wx:if="{{item.selected}}" type="success" color="red" data-index="{{index}}"  class="cart-pro-select" bindtap="selectList"/>
+                <icon wx:else type="circle" class="cart-pro-select" data-index="{{index}}" bindtap="selectList"/>
+                 <navigator url="../details/details?id={{item.id}}"><image class="cart-thumb" src="{{item.pic_url}}"></image></navigator> 
+                <text class="cart-pro-name">{{item.title}}</text>
+                <view class="cart-pro-price">￥{{item.price}}</view>
+                <view class="cart-count-box" >
+                    <text class="cart-count-down" bindtap="minusCount" data-index="{{index}}">-</text>
+                    <text class="cart-count-num">{{item.num}}</text>
+                    <text class="cart-count-add" bindtap="addCount" data-index="{{index}}">+</text>
+                </view>
+            </view>
+        </view>
+
+        <view class="cart-footer">
+            <icon wx:if="{{selectAllStatus}}" type="success_circle" color="red" class="total-select" bindtap="selectAll"/>
+            <icon wx:else type="circle" color="#000" class="total-select" bindtap="selectAll"/>
+            <text style="margin-left:80rpx;line-height: 90rpx; ">全选</text>
+            <view bindtap='jump' wx:if="{{!pay_selected}}"  style='background-color:#FF0000;color:#fff;display:inline-block;float:right;padding:0 20rpx;line-height: 90rpx;'>
+              <text >结算({{cart_num}})</text>
+            </view>
+              <view wx:if="{{pay_selected}}" style='background-color:#ddd;color:#fff;display:inline-block;float:right;padding:0 40rpx;line-height: 90rpx;'>
+              <text >结算</text>
+            </view> 
+            <!-- <text wx:if="{{!selected}}"  style="float:right;background-color:#ddd;padding:0 20rpx;color:#fff;line-height: 120rpx; ">结算(0)</text> -->
+            <text style='float:right;margin-right:20rpx;font-size:32rpx;'>合计：<text style='display:inline-block;color:red'>￥ {{cart_price}}</text>   </text>
+            <view style="text-align:right;margin:-40rpx 160rpx 0 0;font-size:24rpx;color:#ddd">以上不含运费</view>
+        </view>
+    </view>
+    <view wx:else>
+        <view class="cart-no-data">购物车是空的哦~</view>
+    </view>
+</view>

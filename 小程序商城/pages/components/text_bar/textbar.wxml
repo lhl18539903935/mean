@@ -1,0 +1,6 @@
+<!--pages/components/text_bar/textbar.wxml-->
+    <view class="text_bar"
+      wx:for="{{content.content.dataset}}" wx:key="index">
+      <view style="display:inline-block">{{item.showtitle}}</view>
+      <view style="display:inline-block" class="rt iconfont icon-jiantou-copy-copy" wx:if="{{item.showtitle}}"></view>
+    </view>

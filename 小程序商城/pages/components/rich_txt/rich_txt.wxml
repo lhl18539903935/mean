@@ -1,0 +1,2 @@
+<!--富文本-->
+<view style="margin: {{content.content.modulePadding}}px 0">{{data_content}}</view>

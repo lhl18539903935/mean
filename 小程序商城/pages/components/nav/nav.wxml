@@ -1,0 +1,10 @@
+<!--pages/components/nav/nav.wxml-->
+<!-- 默认导航 -->
+    <wxs module="dateFr" src="../../filter/filter.wxs"></wxs>  
+<view class="nav_ul" style="margin:{{content.content.modluePadding}}px 0 ">
+  <view class="nav_li"
+    wx:for="{{content.content.dataset}}" wx:key="{{index}}">
+    <image class="nav_img" src="{{item.pic}}"></image>
+    <view style="display:inline-block">{{item.showtitle}} </view>
+  </view>
+</view>  

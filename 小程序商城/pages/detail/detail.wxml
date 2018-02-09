@@ -1,0 +1,41 @@
+<!--pages/detail/detail.wxml-->
+<view class="order_detail">
+  <view class="order_detail_top">
+    <view class="inline">
+      <view>订单：{{order_no}}</view>
+      <view>日期：{{create_time}}</view>
+    </view>
+    <view class="inline rt" style='margin-top:20rpx;color:#FF8F09'>
+      {{status_name}}
+    </view>
+  </view>
+  <view class="order" wx:for="{{detail_list}}" wx:key="index">
+    <view class="order_img inline">
+      <image style='width:100%;height:100%;' src="{{item.pic_url}}"></image>
+    </view>
+    <view class="inline"  style='vertical-align:top;'>
+      <view style='height:110rpx;color:#000;'>{{item.title}}</view>
+      <view class="inline" style='margin-right:40rpx;'>数量：x{{item.num}}</view>
+      <view class="inline" style='color:#BC0F03;font-weight:bold'>￥{{item.price}}</view>
+    </view>
+  </view>
+  <view class="yunfei">
+    <view class="yunfei_top">
+      <view class="inline" style='color:#000;'>运费：</view>
+      <view class="inline rt red_color"  style='font-weight:bold'>￥{{post_fee}}</view>
+    </view>
+    <view class="yunfei_bottom">
+      <view class="inline" style='color:#000;'>实付款(含运费):</view>
+      <view class="inline rt red_color"  style='font-weight:bold'>￥{{payment}}</view>
+    </view>
+  </view>
+  <view class="order_address">
+    <view class="address_top">收货信息：</view>
+    <view style='margin:15rpx 0;'>
+      <view class="inline">{{name}}</view>
+      <view class="inline rt">{{mobile}}</view>
+    </view>
+    <view>{{address}}</view>
+  </view>
+  <button style="background:#FF8F09;color:#fff;width:80%;margin:2rem auto;font-size:30rpx;">付款</button>
+</view>

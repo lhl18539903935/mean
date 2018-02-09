@@ -1,0 +1,41 @@
+<!--pages/components/groom/groom.wxml-->
+<view  class="sales" style="margin-top:{{content.content.modulePadding}}px;margin-bottom:{{content.content.modulePadding}};">
+    <!--推荐商品-->
+    <view>
+      <!--倒计时时间-->
+      <view class="countdown" wx:if="{{countstate}}">
+        距离结束时间还剩
+        <view class="count_span" style="display:inline-block">{{oDay}}</view> 天
+        <view class="count_span" style="display:inline-block">{{hours}}</view> :
+        <view class="count_span" style="display:inline-block">{{minutes}}</view> :
+        <view class="count_span" style="display:inline-block">{{seconds}}</view>
+      </view>
+      <view class="end" wx:if="{{!countstate}}">活动已结束</view>
+      <!--商品-->
+      <view class="salessrc">
+        <!-- <img :src="content.goodslist[0].pic" alt=""> -->
+        <!-- <image src="{{content.goodslist[0].pic}}" class="salessrc_img"></image> -->
+        <image  bindload="imageLoad" class="salessrc_img" style='width:{{ images[0].width }}rpx; height:{{ images[0].height }}rpx;' data-index="0"  src="{{content.content.goodslist[0].pic}}"></image>
+        <!--活动状态-->
+        <view style="display:inline-block" class="salessrc_span {{changestate?'spancolor':''}}">
+                <view style="width:40px;display:inline-block;font-weight: 100;margin-top: 5px;">{{content.content.act_status}}</view>
+            </view>
+      </view>
+      <!--商品详情-->
+      <view class="salesdetail" >
+        <!--商品标题-->
+        <view class="first_p">{{content.content.goodslist[0].title}}</view>
+        <!--疯抢价-->
+        <view class="sec_p" wx:if="{{originalstate}}" style="margin:3px 0;">抢完恢复原价{{content.content.goodslist[0].original_price}}元</view>
+        <view class="salesprice" style="margin:7px 0;">
+          <!--疯抢价red-->
+          <view style="display:inline-block" class="salesfirst_span {{act_status?'salespan':''}}">{{content.content.act_status_price}}</view>
+          <!--现价-->
+          <view style="display:inline-block"  class="sec_span" wx:if="{{!nowstate}}">￥{{content.content.goodslist[0].price}}</view>
+          <view style="display:inline-block"  wx:if="{{nowstate}}" style="color:#FF0000;font-weight:600" >现价：￥{{content.content.goodslist[0].original_price}}</view>
+          <!--原价-->
+          <view style="display:inline-block"  class="sale_del {{delstate?'del':''}}">原价：￥{{content.content.goodslist[0].original_price}} 元</view>
+        </view>
+      </view>
+    </view>
+  </view>

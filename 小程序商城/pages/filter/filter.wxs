@@ -1,0 +1,28 @@
+var xcx_filter={
+  // filter: function (str, L, s){
+  //   s = typeof s == 'undefined' ? '' : s
+  //   L = 2 * L
+  //   let result = '',
+  //     strlen = str.length,
+  //     chrlen = str.replace(/[^\x00-\xff]/g, '**').length;
+  //   if (chrlen <= L) { return str; }
+  //   for (let i = 0, j = 0; i < strlen; i++) {
+  //     let chr = str.charAt(i);
+  //     if (/[\x00-\xff]/.test(chr)) {
+  //       j++;
+  //     } else {
+  //       j += 2;
+  //     }
+  //     if (j <= L) {
+  //       result += chr;
+  //     } else {
+  //       return result + s;
+  //     }
+  //   }
+  // }
+}
+module.exports = {
+  filter: xcx_filter.filter
+}
+
+

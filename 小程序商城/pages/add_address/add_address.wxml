@@ -1,0 +1,29 @@
+<!--pages/add_address/add_address.wxml-->
+<view class="bg">
+  <view class="add">
+    <view   class="inline f16 add_left">收货人</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请输入收货人的姓名' bindinput="name" value="{{name}}"></input>
+  </view>
+  <view class="add">
+    <view   class="inline f16 add_left">手机号码</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请输入收货人联系方式' bindinput="mobile"  value="{{mobile}}"></input>
+  </view>
+  <navigator url="../provinces/provinces" class="add">
+      <view   class=" inline f16 add_left">收货地区</view>
+       <view class=" inline">{{province_id}}{{city_id}}{{area_id}}</view> 
+          <view class="inline rt iconfont icon-jiantou-copy-copy" style='margin-top:35rpx;'></view>
+      <view class="inline rt" style='margin:30rpx 20rpx 0 0 ;' wx:if="{{!province_id}}">请选择</view>
+  </navigator>
+  <view class="add">
+    <view   class="inline f16 add_left">邮政编码</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请填写邮政编码'  bindinput="emile" value="{{emile}}"></input>
+  </view>
+  <view class="add">
+    <view   class="inline f16 add_left">详细地址</view>
+    <input style="overflow:inherit;"  class="inline" placeholder='请填写详细地址'  bindinput="address_detail" value="{{address_detail}}"></input>
+  </view>
+</view>
+<button type="primary" style="margin:2rem auto;width:95%;" bindtap='submit'>提交</button>
+
+<!-- <import src="../../model/model.wxml"/>
+<template is="areaData" data="{{...item}}"/> -->

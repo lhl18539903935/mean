@@ -1,0 +1,57 @@
+/* pages/balance/balance.wxss */
+.lf{
+  float:left;
+}
+.rt{
+  float:right;
+}
+.inline{
+  display:inline-block;
+}
+.f12{
+  font-size: 24rpx;
+}
+.f14{
+  font-size:28rpx;
+}
+.f16{
+  font-size:32rpx;
+  font-weight: bold;
+   color:#D13F42;
+}
+.bg{
+  background-color: #fff;
+}
+.corcal{
+  color:#EF9437;
+}
+.red{
+  color:#D13F42;
+}
+.balance{
+  width: 100%;
+}
+.paddingTop{
+     padding:30rpx 0;
+    border-bottom:2rpx solid #EDEDED; 
+}
+.balance_top{
+  width: 95%;
+  margin: 0 auto;
+  border-bottom:2rpx solid #EDEDED; 
+  padding:30rpx 0;
+}
+.balance_detail{
+  width: 100%;
+  margin: 0.5rem auto;
+  padding:30rpx 0; 
+}
+.jiantou{
+  content:'';
+  width:20rpx;
+  height:20rpx;
+  border-top:4rpx solid #EDEDED; 
+  border-left:4rpx solid #EDEDED; 
+  transform: rotate(135deg);
+  margin-top:10rpx;
+}

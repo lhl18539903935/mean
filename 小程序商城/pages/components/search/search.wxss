@@ -1,0 +1,20 @@
+/* pages/components/search/search.wxss */
+@import '../../../app.wxss';
+.search_input input{
+  display: block;
+  width:85%!important;
+  margin:20rpx auto;
+  outline:none;
+  -webkit-appearance: none;
+  padding:16rpx 10rpx;
+  border:2rpx solid #DBDADA;
+  border-radius: 10rpx ;
+}
+.icon-fangdajing{
+  position: absolute;
+  right: 7.5%;
+  top: 20rpx;
+  font-size: 36rpx;
+  color: #666;
+  z-index: 10;
+}

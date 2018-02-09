@@ -1,0 +1,23 @@
+{
+  "usingComponents": {
+    "swiper_components": "../components/swiper/swiper",
+    "hotsale": "../components/hotsale/hotsale",
+    "nav": "../components/nav/nav",
+    "rich": "../components/rich_txt/rich_txt",
+    "titlebar": "../components/title_bar/titlebar",
+    "goods": "../components/goods/goods",
+    "search": "../components/search/search",
+    "img_bar": "../components/img_bar/imgbar",
+    "advert": "../components/advert/advert",
+    "cutoff": "../components/cut_off/cutoff",
+    "topbar": "../components/topbar/topbar",
+    "marquee": "../components/marquee/marquee",
+    "classify": "../components/classify/classify",
+    "shopwindow": "../components/shopwindow/shopwindow",
+    "groom": "../components/groom/groom",
+    "scrollbar": "../components/scrollbar/scrollbar",
+    "cardlist": "../components/card_list/cardlist",
+    "auxiliary_blank": "../components/auxiliary_blank/auxiliary",
+    "text-bar": "../components/text_bar/textbar"
+  }
+}

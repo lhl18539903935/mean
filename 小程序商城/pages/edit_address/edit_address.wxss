@@ -1,0 +1,29 @@
+/* pages/edit_address/edit_address.wxss */
+
+.inline{
+  display: inline-block;
+}
+.f16{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.lf{
+  float: left;
+}
+.rt{
+  float:right;
+}
+.add_left{
+  width:25%;
+  text-align: right;
+  padding:30rpx 0;
+  margin-right:20rpx;
+}
+.add{
+  width: 95%;
+  margin:0 auto;
+  border-bottom:2rpx solid #F4F4F4;
+}
+.bg{
+  background-color: #fff;
+}

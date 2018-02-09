@@ -1,0 +1,46 @@
+<view class="search">
+  <input class="search-input" type="text" placeholder="请输入关键字" confirm-type="search" value="{{value}}" bindconfirm="search"/>
+  <icon class="search-icon" type="search" size="20"></icon>
+  <image class="gouwuche" src="./image/gouwuche.png"></image>
+  <view style="position:absolute;right:10rpx;top:10rpx;font-size:24rpx;color:#fff;background-color:red;padding:5rpx 10rpx;border-radius:50%;">{{cartNum}}</view>
+</view>
+<view class="classify">
+  <view class="classify-li {{m?'classify-li-hover':''}}" bindtap="m">默认</view>
+  <view class="classify-li {{a2?'classify-li-hover':''}}" bindtap="a">
+    <text>价格</text>
+    <text class="iconfont icon-jiantouarrow499" wx:if="{{a1}}"></text>
+    <text class="iconfont icon-jiantouarrow499-copy" wx:else></text>
+  </view>
+  <view class="classify-li {{b2?'classify-li-hover':''}}" bindtap="b" >
+    <text>销量</text>
+    <text class="iconfont icon-jiantouarrow499" wx:if="{{b1}}"></text>
+    <text class="iconfont icon-jiantouarrow499-copy" wx:else></text>
+  </view>
+  <view class="classify-li {{c2?'classify-li-hover':''}}" bindtap="c">
+    <text>人气</text>
+    <text class="iconfont icon-jiantouarrow499" wx:if="{{c1}}"></text>
+    <text class="iconfont icon-jiantouarrow499-copy" wx:else></text>
+  </view>
+  <view class="classify-li"  bindtap="d">
+    <text class="iconfont icon-liebiao" wx:if="{{d1}}"></text>
+    <text class="iconfont icon-fenlei" wx:else></text>
+  </view>
+</view>
+<view class="{{d1?'ul1':'ul2'}}"  >
+  <view class="li" wx:for="{{memberlist}}" bindtap="www" wx:key="{{item.item_id}}" id="{{item.item_id}}">
+    <image class="li-img" src="{{item.pic_url}}"></image>
+    <view class="li-title">
+      <text>{{item.title}}</text>
+    </view>
+    <view class="money">
+      <text class="money1">￥{{item.price}}</text>
+      <text class="money2">{{item.sale_num}}人付款</text>
+    </view>
+  </view>
+</view> 
+
+<view style="height: 100rpx;"></view>
+<!--<import src="../../utils/wxParse/wxParse.wxml" />-->
+<!--<view class="wxParse">-->
+  <!--<template is="wxParse" data="{{wxParseData:aaa.nodes}}"/>-->
+<!--</view>-->

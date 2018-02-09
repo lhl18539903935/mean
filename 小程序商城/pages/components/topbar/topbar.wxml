@@ -1,0 +1,13 @@
+<!--pages/components/topbar/topbar.wxml-->
+  <view style="margin:{{content.content.modulePadding}}px 0;">
+    <view class="topbar_ul">
+      <view 
+        class="topbar_li {{(content.content.marginstyle == 1)?'marginstyle':''}}"
+        wx:for="{{content.content.dataset}}" wx:key="index"
+        style="background-color: {{item.bgColor}}; color: {{item.fotColor}};">
+          <!-- <img v-if="content.style == 1" :src="n.pic | imgs"> -->
+          <image wx:if="{{content.style == 1}}"  src="{{item.pic}}" class="topbar_img"></image>
+          <view>{{item.showtitle}}</view>
+      </view>
+    </view>
+  </view>

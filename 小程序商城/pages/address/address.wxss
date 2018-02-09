@@ -1,0 +1,41 @@
+/* pages/address/address.wxss */
+.f12{
+  font-size: 24rpx;
+}
+.f16{
+  font-size: 32rpx;
+  background-color: #E35B27;
+  color:#fff;
+}
+.lf{
+  float:left;
+}
+.rt{
+  float:right;
+}
+.inline{
+  display:inline-block;
+}
+.red{
+  color:red;
+}
+.address_list{
+  width:100%;
+}
+.address_content{
+  width: 95%;
+  margin: 0.5rem auto;
+    padding:20rpx 0;
+  background-color: #fff;
+  border: 2rpx solid #E0DFE4;
+}
+.address_detail{
+  padding-bottom:20rpx; 
+  border-bottom:2rpx solid #E0DFE4;
+}
+.address_bottom{
+  padding-top:20rpx;
+}
+.icon{
+  margin-right:20rpx;
+}

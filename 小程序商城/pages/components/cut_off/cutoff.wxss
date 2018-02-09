@@ -1,0 +1,20 @@
+/* pages/components/cut_off/cutoff.wxss */
+.cut_p{
+    position: relative;
+    border:none;
+  }
+  .cut_p:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 2rpx dashed #ddd;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200%;
+    height: 200%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+  }

@@ -1,0 +1,12 @@
+<!--pages/member/member.wxml-->
+<import src="../template/template.wxml"/>
+  <view style="background: rgba(255,17,50,{{a}});height: 100rpx;width: 100%;position: fixed;top: 0;left: 0;z-index: 100;"></view> 
+    <block  wx:for="{{data}}" wx:key="index">
+    <template is="{{item.type}}" data="{{item}}"/>
+  </block>  
+  <view style="text-align:center;" wx:if="{{waitingtext}}">
+     <icon type="waiting" size="35"/><text>刷新中...</text> 
+  </view>
+  <view style="text-align:center;" wx:if="{{!waitingtext}}">
+     <text>我的底线...</text> 
+  </view>

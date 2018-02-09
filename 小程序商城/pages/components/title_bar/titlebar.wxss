@@ -1,0 +1,36 @@
+/* pages/components/title_bar/titlebar.wxss */
+a0{
+  width: 100%;
+  padding: 16rpx 20rpx;
+  background-color: #28c192;
+  box-sizing: border-box;
+}
+  .a1{
+  width: 100%;
+  padding: 16rpx 20rpx;
+  box-sizing: border-box;
+}
+  .a1 .bar_span{
+    border-bottom: 2rpx solid red;
+  }
+  .a2 .bar_p{
+    margin-top: 30rpx;
+    height: 50rpx;
+    border-top: 2rpx solid red;
+    line-height: 2rpx;
+  }
+  .a2 .bar_span{
+    background-color: #f8f8f8;
+    padding: 0 16rpx;
+  }
+  .a3{
+    width: 100%;
+    padding: 16rpx 20rpx;
+    box-sizing: border-box;
+  }
+  .a3 .bar_p{
+    padding-left: 20rpx;
+    border-left: 8rpx solid red;
+  }
+
+

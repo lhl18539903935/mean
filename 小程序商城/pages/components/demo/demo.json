@@ -1,0 +1,184 @@
+{
+  "current_num": 5,
+  "data": [
+    {
+      "id": 9,
+      "type": "Header_style46",
+      "draggable": true,
+      "sort": 0,
+      "content": {
+        "showType": 1,
+        "modulePadding": 0,
+        "dataset": [
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u767d\u91d1\u65e9\u793c",
+            "title": "",
+            "subtitle": "\u5973\u88c5",
+            "pic": "\/PublicMob\/images\/mob\/37banner01.jpg"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u767d\u91d1\u65e9\u793c",
+            "title": "",
+            "subtitle": "\u7537\u88c5",
+            "pic": "http:\/\/tp.huileyi.com\/07\/e1\/119\/2017-12\/5a4599953a145.jpg"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u767d\u91d1\u65e9\u793c",
+            "title": "",
+            "subtitle": "\u7ae5\u88c5",
+            "pic": "http:\/\/tp.huileyi.com\/07\/e1\/119\/2017-10\/59dc9866367e0.jpg"
+          }
+        ]
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 10,
+      "type": "Header_style46_nav",
+      "draggable": true,
+      "sort": 1,
+      "content": {
+        "modulePadding": 5,
+        "dataset": [
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u65b0\u54c1",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_01.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u70ed\u5356",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_02.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u4fc3\u9500",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_03.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u8ba2\u5355",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_04.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u7b7e\u5230",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_05.png"
+          }
+        ]
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 11,
+      "type": "Header_style46_nav",
+      "draggable": true,
+      "sort": 2,
+      "content": {
+        "modulePadding": 0,
+        "dataset": [
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u4e0a\u88c5",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_06.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u4e0b\u88c5",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_07.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u5185\u8863",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_08.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u978b\u5b50",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_09.png"
+          },
+          {
+            "link": "\/Shop\/index",
+            "linkType": 6,
+            "showtitle": "\u6240\u6709",
+            "pic": "\/PublicMob\/images\/mob\/37nav_img_10.png"
+          }
+        ]
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 12,
+      "type": 16,
+      "draggable": true,
+      "sort": 3,
+      "content": {
+        "linkType": 0,
+        "title": "\u516c\u544a",
+        "showtitle": "\u8bf7\u586b\u5199\u5185\u5bb9\uff0c\u5982\u679c\u8fc7\u957f\uff0c\u5c06\u4f1a\u6eda\u52a8\u663e\u793a",
+        "bgColor": "#fff",
+        "noticeStyle": "2",
+        "cloPicker": "2",
+        "fontSize": "font12",
+        "modulePadding": 0
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    },
+    {
+      "id": 13,
+      "type": 8,
+      "draggable": true,
+      "sort": 4,
+      "content": {
+        "layout": 2,
+        "layout1_style": 1,
+        "modulePadding": 5,
+        "hasImgMargin": 1,
+        "dataset": [
+          {
+            "linkType": 0,
+            "link": "#",
+            "showtitle": "",
+            "titleBackgroundColor": "#FE9303",
+            "pic": "\/PublicMob\/images\/mob\/37img_01.jpg"
+          },
+          {
+            "linkType": 0,
+            "link": "#",
+            "showtitle": "",
+            "titleBackgroundColor": "#FE9303",
+            "pic": "\/PublicMob\/images\/mob\/37img_02.jpg"
+          }
+        ]
+      },
+      "dom_conitem": null,
+      "dom_ctrl": null,
+      "ue": null
+    }
+  ],
+  "code": 200,
+  "version": "9d7d676def1b39b74cca119ccf6f5411"
+}

@@ -1,0 +1,62 @@
+<!--pages/cart/cart.wxml-->
+<view class="detail_content">
+  <view class="detail" wx:for="{{cart_list}}" wx:key="index">
+    <view class="cart_detail">
+      <!-- 失效，图片 -->
+      <view class="class_detail_left">
+         <view class="tishi" wx:if="{{false}}">{{item.toast}}</view>
+         <!-- <radio-group class="radio-group inline" bindtap="radio" id="{{index}}">
+          <label class="checkbox inline">
+            <radio color="red" checked="{{checked}}'"/>
+          </label>
+        </radio-group>    -->
+        <view style='width:20px;height:20px;border:1px solid red;' type="{{item.select}}" size="26" data-index="{{index}}" data-select="{{item.select}}" bindtap="change"></view>
+        <image src="{{item.img}}"></image>
+      </view>
+      <!-- img详情 -->
+      <view class="class_detail_right">
+        <view class="title">{{item.title}}</view>
+        <view class="detail_bottom">
+          <view class="detail_pay">￥{{item.pay}}</view>
+          <view class="detail_num" wx:if="{{false}}">数量:{{item.num}}</view> 
+          <view class="detail_num" >
+            <view class="inline detail_btn">-</view><view class="inline detail_btn">2</view><view class="inline detail_btn">+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="clear_detail">
+   <button class="clear_btn">清除失效的宝贝</button>
+  </view>
+  <view class="pay_bar">
+    <view class="foot_bar">
+      <view class="pay_left"> 
+       <radio-group class="radio-group inline" bindtap="radioChange">
+        <label class="checkbox inline">
+         <radio color="red" checked="{{checked}}"/>全选
+        </label>
+        </radio-group> 
+        <view class="check_right rt" style='margin-right:10rpx;'>
+          <view style='font-weight:600;height:50%;margin-top:4rpx;'>
+            合计:
+            <view class="inline pay_color">
+              ￥0.00
+            </view>
+          </view>
+          <view class="yunfei">
+            不含运费
+          </view>
+        </view>
+      </view>
+       <navigator wx:if="{{!pay_state}}" url="../balance/balance" hover-class="none" class="inline pay_right">
+        <view class="red">
+         结算(0)
+        </view>
+      </navigator> 
+      <view style="display:inline-block" class="inline pay_right">
+         结算(0)
+        </view>
+    </view>
+  </view>
+</view>

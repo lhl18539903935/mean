@@ -1,0 +1,110 @@
+<swiper class="swiper"
+        autoplay
+        indicator-active-color="red"
+        indicator-dots>
+  <swiper-item wx:for="{{img_list}}" wx:key="index">
+    <image class="swiper-img" src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+
+<view class="main">
+  <view class="main-title">{{title}}</view>
+  <view class="main-money">
+    <text class="main-money1">￥\t{{price}}</text>
+    <text>\t|\t</text>
+    <text class="main-money2">原价:￥{{original_price}}</text>
+  </view>
+  <view class="zhuangtai">
+    <view class="kucun">库存:{{num}}件</view>
+    <view class="xiaoliang">销量:{{salenum}}件</view>
+    <view class="yunfei">运费:{{post_fee}}元</view>
+  </view>
+</view>
+
+<view class="details">
+  <view class="details-title">
+    <view class="commodity-details {{activenum===0?'active':''}}" bindtap='switch'>商品详情</view>
+    <view class="evaluate {{activenum===1?'active':''}}" bindtap='switch1'>评价（0）</view>
+  </view>
+  <view>
+
+  </view>
+</view>
+<view class="wxParse" wx:if="{{showdetail}}">
+  <template is="wxParse" data="{{wxParseData:description.nodes}}"/>
+</view>
+<view wx:if="{{!showdetail}}" style='background-color:#fff;margin-top:0.5rem;text-align:center;padding:40rpx 0' wx:for="{{list}}" wx:key="index">
+  <view  style="margin-bottom:2rem;">
+      <view>{{item.detail}}</view>
+    <view>{{item.user_name}}</view>
+    <view>{{item.mobile}}</view>
+    <view>{{item.sku_name}}</view>
+  </view>
+</view>
+<view class="footer">
+  <view class="footer-icon">
+    <view>
+      <text class="iconfont icon-gouwuche"></text>
+      <text>\n客服</text>
+    </view>
+    <navigator url="../../cart/cart">
+      <text class="iconfont icon-gouwuche"></text>
+      <text>\n购物车</text>
+    </navigator>
+  </view>
+  <view class="cart" bindtap="tapAlert">加入购物车</view>
+  <view class="buy" bindtap="tapAlert1">立即购买</view>
+</view>
+<view class="alert" wx:if="{{alert}}">
+  <view class="alert-main">
+    <view class="alert-money">
+      <image class="alert-img" src="{{link}}"></image>
+      <text class="alert-money1">￥{{price}}</text>
+      <text class="alert-x" bindtap="tapAlert">X</text>
+    </view>
+    <view class="alert-numb">
+      <txex>购买数量:</txex>
+      <view class="alert-n">
+        <text class="alert-n1" bindtap='delete'>-</text>
+        <text class="alert-n1">{{ordernum}}</text>
+        <text class="alert-n1" bindtap='add'>+</text>
+      </view>
+    </view>
+      <view  wx:for="{{arr}}" wx:key="index">
+        <view wx:for="{{item}}" wx:key="index" id="{{item.pid}}" data-index="{{index}}" class="inline {{colornum==index?'red':''}}" bindtap='chosevalue'>{{item.pname}}</view>
+      </view>
+    <view class="alert-btn">
+      <button class="alert-btn1" bindtap='addcart' wx:if="{{numbtn==0}}">加入购物车</button>
+      <button class="alert-btn1" bindtap='addcart' wx:if="{{numbtn==1}}" bindtap='buy'>立即购买</button>
+    </view>
+  </view>
+</view>
+<import src="../../../utils/wxParse/wxParse.wxml" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

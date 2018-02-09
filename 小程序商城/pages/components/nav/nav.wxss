@@ -1,0 +1,13 @@
+/* pages/components/nav/nav.wxss */
+.nav_img{
+  width: 100%;
+}
+  .nav_ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav_li{
+    flex: auto;
+    padding: 6rpx;
+    text-align: center;
+  }

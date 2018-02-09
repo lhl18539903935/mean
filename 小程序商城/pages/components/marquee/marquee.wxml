@@ -1,0 +1,14 @@
+<!--pages/components/marquee/marquee.wxml-->
+  <view style="margin:{{content.content.modulePadding}}px 0;">
+    <view class="main" style="font-size: {{content.content.fontSize}};color: {{content.content.fontColor}};background-color:{{content.content.bgColor}}">
+      <view wx:if="{{content.content.showtitle.length<18}}">
+        <!--兼容火狐，stop事件不能用-->
+        <view class="{{(content.content.noticeStyle==2)?'pad':''}}">{{content.content.showtitle}}</view>
+      </view>
+      <view wx:else class="marquee">
+        <view class="content {{(content.content.noticeStyle==2)?'pad':''}}">{{content.content.showtitle}}</view>
+        <view class="content {{(content.content.noticeStyle==2)?'pad':''}}">{{content.content.showtitle}}</view>
+        <view class="content {{(content.content.noticeStyle==2)?'pad':''}}">{{content.content.showtitle}}</view>
+      </view>
+    </view>
+  </view>

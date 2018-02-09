@@ -1,0 +1,13 @@
+/* pages/myfans/myfans.wxss */
+.my_fans{
+  text-align: center;
+}
+.fans{
+  background-color: #F33926;
+  color:#fff;
+  padding:20rpx 0;
+}
+.fans_num{
+    padding:20rpx 0;
+    border-bottom:2rpx solid #ddd;
+}

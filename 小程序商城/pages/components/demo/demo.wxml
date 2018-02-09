@@ -1,0 +1,17 @@
+<!--pages/components/demo/demo.wxml-->
+<template name="msgItem">
+    <view class="search f12" ref="seatch" style="background:rgba(255, 0, 0,{{a}})">
+      <view class="img">
+        <view style="display:inline-block" class="iconfont icon-dingdan">icon</view>
+        订单
+      </view>
+      <view class="inpt"> 
+         <input  type="text" placeholder="搜索商品名称"></input>
+        <view style="display:inline-block"  class="iconfont icon-fangdajing"></view>
+      </view>
+      <view class="img">
+        <view style="display:inline-block"  class="iconfont icon-qiandao">icon</view>
+        签到
+      </view>
+    </view> 
+</template>

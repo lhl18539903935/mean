@@ -1,0 +1,8 @@
+<!--pages/components/title_bar/titlebar.wxml-->
+    <view style="margin: {{content.content.modulePadding}}px 0">
+      <view class="a{{content.content.style}}">
+        <view class="bar_p" style="text-align:{{content.content.direction}};color:{{content.content.titleColor}};">
+          <view class="bar_span" style="display:inline-blick">{{content.content.title}}</view>
+        </view>
+      </view>
+    </view>

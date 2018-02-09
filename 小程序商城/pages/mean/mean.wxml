@@ -1,0 +1,84 @@
+<!--pages/mean/mean.wxml-->
+<view wx:if="{{switchstate}}">
+<!-- 个人信息 -->
+ <view class="personal">
+    <view class="inline mean_img">
+      <image src="{{avatar}}" style="width:100%;height:100%;border-radius:50%;"></image>
+    </view>
+    <view class="inline">
+      <view>名称:{{nickname}}</view>
+      <view class="f12">ID:{{user_id}}</view>
+      <view class="f12">注册时间：{{create_time}}</view>
+    </view>
+      <navigator url="../myfans/myfans" hover-class="none" class="inline mean_love">
+    <view class="inline">
+      <view>我的粉丝</view>
+    </view>
+    </navigator>
+ </view>
+ <!-- 订单详情 -->
+ <view class="order flex_box ">
+  <view class="order_item" wx:for="{{all_orderlist}}" wx:key="index" bindtap='choose' id="{{index}}">
+    <view class="iconfont {{item.img}} order_font"></view>
+    <view class="order_num" style='font-size:20rpx;'>{{item.order_num}}</view>
+    <view class="f12 {{(num == index) ?'red':''}}">{{item.all}}</view>
+    <view class="{{(num == index) ?'bottom_line':''}}"></view>
+  </view>
+  </view>
+  <view class="nothing_order"  wx:if="{{!datalist}}" >
+    <view class="icon_order">
+      <view style="font-size:40px;color:#fff;" class="inline iconfont icon-dingdan"></view>
+    </view>
+    <view class="f16" style='margin:1rem 0 0.5rem 0; '>您还没有相关的订单</view>
+    <view class="f12">可以去看看有哪些想买的</view>
+  </view>
+  <view class="preview" wx:if="{{datalist}}" wx:for="{{detail_list}}" wx:key="index">
+      <view class="preview_top">
+        <view class="inline">
+          <view class="f12" style="margin-bottom:10rpx;">订单：{{item.order_no}}</view>
+          <view class="f12">日期：{{item.create_time}}</view>
+        </view>
+        <view class="inline rt" style="line-height:80rpx;color:coral">
+          {{item.status_name}}
+        </view>
+      </view>
+        <view class="preview_middle" wx:for="{{item.order}}" wx:key="index">
+          <view class="inline preview_img">
+              <image src="{{item.pic_url}}" style="width:100rpx;height:100rpx;vertical-align:top;"></image>
+          </view>
+          <view class="inline preview_detail ">
+            {{item.title}}
+          </view>
+          <view class="inline preview_pay f12 rt" style='vertical-align:top;'>
+            <view style="height:40rpx;">
+              ￥{{item.current_price}}
+            </view>
+            <view class="rt">x{{item.num}}</view>
+          </view>
+        </view>
+      <view style="clear:both"></view>
+      <view class="preview_bottom">
+        <view class="preview_sum">商品总价：
+          <view class="inline" style='color:coral'>
+            ￥{{item.total_fee}}
+          </view>
+        </view>
+        <button size="mini" style='color:#999;' bindtap='detele' id="{{item.order_id}}" wx:if="{{item.status==0}}" >删除订单</button>
+        <navigator url="../detail/detail?order_id={{item.order_id}}" class="inline" hover-class="none">
+          <button size="mini" style="background-color:coral;color:#fff;margin:0 20rpx;">详情</button>
+        </navigator>
+        <button size="mini" type="warn" bindtap='switch'>付款</button>
+      </view>
+  </view>
+</view>
+<view wx:if="{{!switchstate}}">
+  <view class="radio">
+      <label>
+        <radio bindtap='choseradio' checked='{{checked}}' color="red"/>使用余额(余额： 0.00)
+      </label>
+  </view>
+  <button class="wx_btn" style='background-color:#FD8F09;'>微信支付</button>
+  <button class="wx_btn" bindtap='exat_pay'  style='background-color:#CCCCCC;'>取消支付</button>
+</view>
+
+

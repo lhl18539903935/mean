@@ -1,0 +1,17 @@
+/* pages/components/topbar/topbar.wxss */
+.topbar_ul{
+  display: flex;
+  justify-content: space-between;
+}
+.topbar_li{
+    flex: 1;
+    text-align: center;
+    padding: 20rpx;
+}
+.topbar_img{
+  width: 48rpx;
+  height: 48rpx;
+}
+  .marginstyle{
+    margin: 0 2rpx;
+  }

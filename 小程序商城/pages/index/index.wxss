@@ -1,0 +1,4 @@
+/* pages/member/member.wxss */
+::-webkit-scrollbar{
+  display: none;
+}

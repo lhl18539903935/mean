@@ -1,0 +1,24 @@
+/* pages/components/scrollbar/scrollbar.wxss */
+.scroll_img{
+  width: 166rrpx;
+  height: 166rpx;
+}
+.scroll_p{
+  width: 166rpx;
+  margin: 0 auto;
+  line-height: 40rpx;
+}
+.scroll_ul{
+  display: flex;
+  justify-content: space-between;
+   overflow: auto; 
+}
+  .scroll_li{
+    flex: auto ;
+    width: 25%;
+    float: left;
+    text-align: center;
+  }
+  .font12{font-size: 24rpx}
+  .font14{font-size: 28rpx}
+  .font16{font-size: 32rpx}

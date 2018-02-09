@@ -1,0 +1,20 @@
+<!--pages/components/swiper/swiper.wxml-->
+<view style="margin-top:{{content.content.modulePadding}}rpx;margin-bottom:{{content.content.modulePadding}}rpx" wx:if="{{content.content.showType == 1}}">
+  <swiper indicator-dots="{{indicatorDots}}" circular="true" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style='height:{{ maxHeight }}rpx;width:100%;'>
+    <block wx:for="{{content.content.dataset}}" wx:key="index" >
+      <swiper-item>
+        <image  bindload="imageLoad" class="slide-image" style='width:{{ images[index].width }}rpx; height:{{ images[index].height }}rpx;' data-index="{{ index }}" src="{{item.pic}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="page__bd" style="margin-top:{{content.content.modulePadding}}rpx;margin-bottom:{{content.content.modulePadding}}rpx;width:100%;" wx:if="{{content.content.showType == 2}}">
+    <view class="section section_gap" wx:for="{{content.content.dataset}}" wx:for-item="item" wx:key="index">
+      <view class="section__ctn">
+        <image  bindload="imageLoad" style='width:{{ images[index].width }}rpx; height:{{ images[index].height }}rpx;' data-index="{{ index }}" src="{{item.pic}}"></image>
+        <view style='font-weight:600;margin-bottom:10rpx'>{{item.showtitle}}</view>
+        <view>{{item.subtitle}}</view>
+      </view>
+    </view>
+  </view>

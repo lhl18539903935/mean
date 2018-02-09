@@ -1,0 +1,19 @@
+<!--pages/components/classify/classify.wxml-->
+<view style="margin:{{content.content.modulePadding}}px 0;overflow: hidden;">
+    <view class="classify_ul {{h?'hidden':''}}">
+      <view
+        class="classify_li {{(content.content.layout == 0)?yuan:''}}"
+        style="background-color: {{item.bgColor}};color: {{item.fotColor}}"
+        wx:for="{{content.content.dataset}}" wx:key="index">
+        {{item.showtitle}}
+      </view>
+    </view>
+    <view
+      class="btn"
+      bindtap='handle"
+      wx:if="{{content.content.dataset.length > 4}}"
+      style="background-color: #28c192;color: #fff;">
+      <view style='display:inline-block' v-show="{{h == false}}">收起</view>
+      <view style='display:inline-block'  v-show="{{h == true}}">展示</view>
+    </view>
+  </view>

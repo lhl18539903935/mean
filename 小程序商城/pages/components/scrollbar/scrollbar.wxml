@@ -1,0 +1,20 @@
+<!--pages/components/scrollbar/scrollbar.wxml-->
+<view style="margin:{{content.content.modulePadding}}px 0;">
+    <view class="scroll_ul">
+      <view class="scroll_li
+        wx:for="{{content.content.dataset}}" wx:key="index">
+        <view wx:if="{{content.content.layout1_style == 1}}">
+          <!-- <img :src="n.pic | imgs"> -->
+          <image src="{{item.pic}}" class="scroll_img"></image>
+          <view class="scroll_p" style="color: {{item.titleColor}};backgroundColor:{{item.titleBackgroundColor}};">{{item.showtitle}}</view>
+        </view>
+        <view wx:else>
+          <view
+            class="scroll_p {{content.content.fontSize}}"
+            style="color: {{item.titleColor}};backgroundColor:{{item.titleBackgroundColor}};">{{item.showtitle}}</view>
+        </view>
+
+      </view>
+    </view>
+  <!--<p>{{content}}</p>-->
+  </view>

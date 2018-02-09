@@ -1,0 +1,26 @@
+<!--pages/components/card_list/cardlist.wxml-->
+  <view style="margin:{{content.content.modulePadding}}px 0;">
+  <!--<p>21-21</p>-->
+    <view class="tab">
+      <view
+        wx:for="{{content.content.goodslist}}"
+        class="tab_li {{(show==index)?'selected':''}}"
+        bindtap="selected" wx:key="index" id="{{index}}">
+        <view>{{item.tabtitle}}</view>
+      </view>
+    </view>
+    <view class="tab-item">
+      <view
+        class="item"
+        wx:for="{{items}}" wx:key="index">
+        <view class="card_p">
+        <!-- <img :src="n.pic | imgs"> -->
+        <image src="{{item.pic}}" class="card_img"></image>
+        </view>
+        <view class="card_p">{{item.title}}</view>
+        <!--<p class="f12 color">已售</p>-->
+        <view class="f12 color card_p"><view  style='display:inline-block' >￥{{item.original_price}}</view></view>
+        <view class="card_p"><view style='display:inline-block' class="card_b">￥{{item.price}}</view><view style='display:inline-block' class="iconfont icon-gouwuche right"></view></view>
+      </view>
+    </view>
+  </view>

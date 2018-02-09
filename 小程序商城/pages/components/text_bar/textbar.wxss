@@ -1,0 +1,27 @@
+/* pages/components/text_bar/textbar.wxss */
+@import '../../../app.wxss';
+.text_bar{
+  width: 95%;
+  margin: 0 auto;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  border: 2rpx solid #ddd;
+  border-radius: 6rpx;
+  background-color: #f9f9f9;
+}
+  .icon-jiantou-copy-copy{
+    position: relative;
+    top: 4rpx;
+    color: #aaa;
+  }
+    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+  .left{float: left}
+  .rt{float: right}
+  .f10{font-size: 20rpx}
+  .f12{font-size: 24rpx}
+  .f14{font-size: 28rpx}
+  .f16{font-size: 32rpx}
+  .f18{font-size: 36rpx}
+  .mint-indicator-wrapper{
+    z-index: 999;
+  }

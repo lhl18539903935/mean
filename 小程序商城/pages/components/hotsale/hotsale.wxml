@@ -1,0 +1,21 @@
+<!--pages/components/hotsale/hotsale.wxml-->
+    <view style="margin:{{content.content.modulePadding}}px 0">
+      <view class="title t{{content.content.mainTitleStyle}}">
+        <view class="title_p">
+          <view class="icon" style="display:inline-block" wx:if="{{content.content.mainTitleStyle == 1}}" class="iconfont icon-xinpin"></view>
+          <view class="icon" style="display:inline-block" wx:if="{{content.content.mainTitleStyle == 2}}" class="iconfont icon-hot1"></view>
+          <view class="icon" style="display:inline-block" wx:if="{{content.content.mainTitleStyle == 3}}" class="iconfont icon-iconfontyouhuiquan1"></view>
+          <span>{{content.content.title}}</span>
+        </view>
+      </view>
+      <view class="ul">
+        <view class="li"
+          wx:for="{{content.content.goodslist}}" wx:key="{{index}}">
+          <!-- <img :src="n.pic | imgs"> -->
+          <image src="{{item.pic}}"></image>
+          <view wx:if="1 == {{content.content.showName}}">{{item.title}}</view>
+          <view><view class="del" style='display:inline-block'>￥{{item.original_price}}</view></view>
+          <view class="{b:1 == content.content.priceBold}" class="color">￥{{item.price}}</view>
+        </view>
+      </view>
+    </view>

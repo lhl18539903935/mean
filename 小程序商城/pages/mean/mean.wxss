@@ -1,0 +1,155 @@
+/* pages/mean/mean.wxss */
+.inline{
+  display: inline-block;
+}
+.rt{
+  float: right;
+}
+.lf{
+  float:left;
+}
+.f12{
+  font-size: 24rpx;
+}
+.f14{
+  font-size: 28rpx;
+}
+.f16{
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.personal{
+  width:100%;
+  padding:20rpx 0;
+  color:#fff;
+  background-color: #E64340;
+}
+.mean_img{
+  width:100rpx;
+  height:100rpx;
+  border:2px solid #fff;
+  border-radius:50%;
+  margin:0 10rpx 0 40rpx;
+}
+.mean_love{
+  float:right;
+  padding:10rpx;
+  margin-right:10rpx;
+  border-radius:10rpx; 
+  background-color: #FF8F09;
+}
+.flex_box{
+  display:flex;
+  background-color: #fff;
+  flex-direction: row ;
+  padding:30rpx 0;
+}
+.order_item{
+  width:25%;
+  text-align: center;
+    position: relative;
+}
+.order_font1{
+  font-size: 36rpx;
+  margin-bottom:12rpx;
+}
+.order_font{
+  margin-bottom: 4rpx;
+  font-size: 42rpx;
+}
+.order_num{
+  width:30rpx;
+  height:30rpx;
+  line-height:30rpx;
+  text-align: center;
+  border-radius:50%;
+  color:#fff;
+  background-color: red;
+  position: absolute;
+  top:-10rpx;
+  right:65rpx;
+}
+.order .f12{
+  position:relative ;
+}
+.bottom_line{
+  content:'';
+  display: inline-block ;
+  width:60rpx;
+  border-radius:60rpx;
+  border:2px solid red;
+  position: absolute ;
+  bottom:-16rpx;
+  left:60rpx;
+}
+.red{
+  color:red;
+}
+.preview{
+  width: 100%;
+  margin-top:0.5rem;
+  background-color: #fff;
+}
+.preview_top{
+ width:90%;
+ margin:0 auto;
+ color:#999;
+ padding:15rpx 0;
+ border-bottom: 2rpx solid #ddd;
+}
+.preview_middle{
+  border-bottom:2rpx solid #ddd;
+  padding:20rpx 0;
+}
+.preview_middle, .preview_bottom{
+  width:90%;
+  margin: 0 auto;
+}
+.preview_bottom{
+  text-align: right;
+  padding:20rpx 0;
+}
+.preview_sum{
+  margin-bottom: 20rpx;
+}
+.preview_img{
+  width:16%;
+  vertical-align: top;
+}
+.preview_pay{
+  margin-left:15rpx;
+}
+.preview_detail{
+  width:60%;
+  margin-right:10rpx;
+}
+.preview_bottom button{
+  font-size: 24rpx
+}
+.wx_btn{
+  width:90%;
+  margin:1rem auto;
+  color:#fff;
+  font-size: 30rpx
+}
+.radio{
+  padding-top:30rpx;
+  width: 90%;
+  margin:0 auto;
+}
+.nothing_order{
+  width:100%;
+  text-align: center;
+  background-color: #F5F5F5;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+}
+.icon_order{
+  width:140rpx;
+  height:140rpx;
+  line-height: 140rpx;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #D8D8D8;
+}
