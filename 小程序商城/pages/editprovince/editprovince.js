@@ -27,7 +27,7 @@ Page({
             provinces: res.data.data
           })
         }
-        if (res.data.code == 203) {
+        if (res.data.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -53,7 +53,7 @@ Page({
       }, 
       data: {},
       success: function (res) {
-        if (res.data.code == 203) {
+        if (res.data.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -98,7 +98,7 @@ Page({
             city: res.data.data
           })
         }
-        if (res.data.code == 203) {
+        if (res.data.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -131,7 +131,7 @@ Page({
             key: "city_name",
             data: res.data.data[e.currentTarget.dataset.index].city_name
           })
-          if (res.data.code == 203) {
+          if (res.data.code == 223) {
             wx.removeStorage({
               key: 'token',
               success: function (res) {
@@ -171,7 +171,7 @@ Page({
             area: res.data.data
           })
         }
-        if (res.data.code == 203) {
+        if (res.data.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -212,7 +212,7 @@ Page({
             areaname: res.data.data[e.currentTarget.dataset.index].area_name
           })
         }
-        if (res.data.code == 203) {
+        if (res.data.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {

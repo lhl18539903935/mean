@@ -1,10 +1,11 @@
 {
   "pages": [
-       "pages/add_address/add_address",
+        "pages/cart/cart",
+        
     "pages/index/index",
-
+    "pages/add_address/add_address",
     "pages/address/address",
-    "pages/cart/cart", 
+
     "pages/mean/mean",
     "pages/member/member",
     "pages/member/details/details",

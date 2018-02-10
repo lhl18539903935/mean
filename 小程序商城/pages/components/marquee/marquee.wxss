@@ -24,6 +24,6 @@
     display: inline-block;
     position: relative;
     padding-right: 0px;
-    animation: kf-marque-animation 5s linear infinite;
+    animation: kf-marque-animation 10s linear infinite;
     white-space: nowrap;
 }

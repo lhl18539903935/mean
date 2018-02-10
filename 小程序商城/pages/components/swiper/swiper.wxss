@@ -24,7 +24,7 @@
 input{
   width: calc(100vw - 400rpx);
   height: 24rpx;
-  margin-top: 0rpx; 
+  margin-top: 5rpx; 
    padding:16rpx 10rpx;
   padding-left: 70rpx;
   border: none;

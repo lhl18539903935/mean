@@ -32,6 +32,8 @@ page{
 .main-title{
   font-size: 36rpx;
   line-height: 80rpx;
+  color:#000;
+  font-weight: bold
 }
 .main-money1{
   font-size: 40rpx;
@@ -48,6 +50,7 @@ page{
   align-items: center;
   height: 100rpx;
   text-align: left;
+  color: #888;
   padding: 0 10rpx;
   box-sizing: border-box;
 }

@@ -11,12 +11,24 @@ App({
   },
  login(){
     console.log("我是login")
+    wx.getStorage({
+      key: '123',
+      success: function (res) {
+        console.log(23423423423423)
+      },
+      fail:function(res){
+        console.log('err')
+      }
+    })
+    
     var vm=this
     wx.getStorage({
       key: 'token',
       success: function (res) {
         vm.data.token=res.data
-        if (!vm.data.token) {
+        console.log(res.data)
+      },
+      fail:function(){
           wx.login({
             success: function (res) {
               console.log(res)
@@ -60,7 +72,7 @@ App({
 
             }
           })
-        } 
+        
       }
     })
   

@@ -48,7 +48,7 @@ Page({
         vm.data.wait_total = res.data.wait_total
         vm.data.send_total = res.data.send_total
         vm.data.sends_total = res.data.sends_total
-        if(res.code==203){
+        if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -105,7 +105,7 @@ Page({
       }, 
       success:function(res){
         vm.data.del_code=res.del_code
-        if (res.code == 203) {
+        if (res.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -148,7 +148,7 @@ Page({
       },
       success: function (res) {
         console.log(res)
-        if (res.code == 203) {
+        if (res.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -266,7 +266,7 @@ Page({
              "Content-Type": "application/x-www-form-urlencoded"
            },
            success:function(res){ 
-             if (res.code == 203) {
+             if (res.code == 223) {
                wx.removeStorage({
                  key: 'token',
                  success: function (res) {

@@ -58,7 +58,7 @@ Page({
           wx.navigateTo({
             url: '../../buy_balan/buy_balan?item_id='+str,
           })
-        }else if(res.code==203){
+        }else if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -98,7 +98,7 @@ Page({
           vm.setData({
             alert:false
           })
-        }else if(res.code==203){
+        }else if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -156,7 +156,7 @@ Page({
           //  description: res.description
           })
         }
-         if(res.code==203){
+         if(res.code==223){
            wx.removeStorage({
              key: 'token',
              success: function (res) {
@@ -224,7 +224,7 @@ Page({
             list:res.data
           })
         }
-        if(res.code==203){
+        if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -240,7 +240,11 @@ Page({
       showdetail:false
     })
   },
-
+  jumpcart(){
+    wx.switchTab({
+      url:'../../cart/cart'
+    })
+  },
   onReady: function () {
   
   },

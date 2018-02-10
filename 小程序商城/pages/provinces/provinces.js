@@ -27,7 +27,7 @@ Page({
             provinces:res.data.data
           })
         }
-        if (res.code == 203) {
+        if (res.code == 223) {
           app.login()
         }
       }
@@ -48,7 +48,7 @@ Page({
       method:"POST",
       success: function (res) {
         console.log(3,res)
-        if (res.code == 203) {
+        if (res.code == 223) {
           app.login()
         }
         wx.setStorage({
@@ -86,7 +86,7 @@ Page({
             city:res.data.data
           })
         }
-        if (res.code == 203) {
+        if (res.code == 223) {
           app.login()
         }
       }
@@ -122,7 +122,7 @@ Page({
             cityname: res.data.data[e.currentTarget.dataset.index].city_name
           })
         }
-        if (res.code == 203) {
+        if (res.code == 223) {
           app.login()
         }
       }
@@ -146,7 +146,7 @@ Page({
             area: res.data.data
           })
         }
-        if (res.code == 203) {
+        if (res.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -188,7 +188,7 @@ Page({
             areaname: res.data.data[e.currentTarget.dataset.index].area_name
           })
         }
-        if (res.code == 203) {
+        if (res.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {

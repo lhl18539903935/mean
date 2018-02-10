@@ -154,7 +154,7 @@ Page({
             vm.setData({
               memberlist: res.data
             })
-          } else if(res.code==203){
+          } else if(res.code==223){
             wx.removeStorage({
               key: 'token',
               success: function (res) {
@@ -197,7 +197,7 @@ Page({
           vm.setData({
             memberlist: res.data
           })
-        } else if(res.code==203){
+        } else if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -237,7 +237,7 @@ Page({
          vm.setData({
            memberlist: res.data
          })
-       } else if(res.code==203){
+       } else if(res.code==223){
          wx.removeStorage({
            key: 'token',
            success: function (res) {
@@ -267,7 +267,7 @@ Page({
             cartNum: res.data
           })
         }
-        if(res.code==203){
+        if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -306,7 +306,7 @@ Page({
           vm.setData({
             memberlist: vm.data.memberlist.concat(res.data)
           })
-        } else if(res.code==203){
+        } else if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {

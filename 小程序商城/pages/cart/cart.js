@@ -11,6 +11,7 @@ Page({
     ordernum:[],
     pay_selected:true,
     sku_id:[],
+    allpay:true,
     sku:'',
     order:'',
     check:"",
@@ -18,6 +19,9 @@ Page({
     hasList:true,
     cart_id:'',//购物车id
     cart_num:0,//购物车数量
+    total_pay:'',
+    total:[],
+    sum:0,
     cart:[],
     carts: [
       { id: '', title: '', image: '', num: 1, price: '', selected: true },
@@ -57,7 +61,7 @@ Page({
           })
           vm.getTotalPrice();
         }
-        if(res.code==203){
+        if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -111,6 +115,14 @@ Page({
       
     }
   },
+  
+  getSum(array){
+    var sum = 0;
+    for(var i = 0; i<array.length; i++){
+    sum += parseInt(array[i]);
+  }
+  return sum;
+},
 // 勾选
   selectList(e) {
 
@@ -121,7 +133,7 @@ Page({
         "Content-Type": "application/x-www-form-urlencoded"
       },
       success:function(res){  
-        if (res.code == 203) {
+        if (res.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -139,6 +151,27 @@ Page({
           // vm.data.cart.push(res.data.lists[e.currentTarget.dataset.index].cart_id)
           // vm.data.check = vm.data.check_box.toString()
 
+          // var vm = this
+          let carts = vm.data.carts;               // 获取购物车列表
+          let total = 0;
+          // for (let i = 0; i < vm.data.carts.length; i++) {         // 循环列表得到每个数据                  // 判断选中才会计算价格
+            total += vm.data.carts[index].num * vm.data.carts[index].price;  // 所有价格加起来    
+            vm.data.total.push(total)
+            var a = vm.data.total
+            var sum=0
+            for(var i=0;i<a.length;i++){
+              sum+=a[i]
+            }
+            vm.data.sum=sum
+            vm.data.total_pay=total
+          // }
+          vm.setData({                                // 最后赋值到data中渲染到页面
+            carts: vm.data.carts,
+            cart_price: vm.data.sum,
+            allpay:false
+          });
+
+
           var str= vm.data.carts[index].num
           vm.data.ordernum.push(str)
           vm.data.order = vm.data.ordernum.toString()
@@ -147,6 +180,8 @@ Page({
           var sku_id = vm.data.carts[index].sku_id
           vm.data.sku_id.push(sku_id)
           vm.data.sku=vm.data.sku_id.toString()
+
+          // vm.data.cart_price=res.data.cart_price
 
         } else if (carts[index].selected == false){//没有被勾选
           var a = res.data.lists[e.currentTarget.dataset.index].cart_id//当前cart_id
@@ -157,6 +192,31 @@ Page({
 
           var sku_id = vm.data.carts[index].sku_id//当前数量
           var index_sku_id = vm.data.sku_id.indexOf(sku_id)//当前sku_id位置
+
+          // let carts = vm.data.carts;               // 获取购物车列表
+          let total = 0;
+          total += vm.data.carts[index].num * vm.data.carts[index].price;  // 所有价格加起来   
+          // vm.data.total.push(total)
+          var x = vm.data.total.indexOf(total)//没有被勾选的数量的位置
+          console.log(x)
+          if (x > -1) {
+            vm.data.total.splice(x, 1);//移除，不计算
+          } 
+          console.log('asdf:'+vm.data.total)
+          var a = vm.data.total
+          var sum = 0
+          for (var i = 0; i < a.length; i++) {
+            sum += a[i]
+          }
+          vm.data.sum = sum
+          vm.data.total_pay = total
+          // }
+          vm.setData({                                // 最后赋值到data中渲染到页面
+            carts: vm.data.carts,
+            cart_price: vm.data.sum,
+            allpay: false
+          });
+
 
           if(b>-1){
             vm.data.check_box.splice(b, 1);
@@ -207,7 +267,7 @@ Page({
         cart_id: vm.data.check
       },
       success: function (res) {
-        if(res.code==203){
+        if(res.code==223){
           app.login()
         }
         wx.showToast({
@@ -275,7 +335,8 @@ Page({
     }
     this.setData({
       selectAllStatus: selectAllStatus,
-      carts: carts
+      carts: carts,
+      
     });
     api.post({
       url: '/Template/cart',
@@ -285,7 +346,8 @@ Page({
       success:function(res){
         if (selectAllStatus==true){
           vm.setData({
-            pay_selected:false
+            pay_selected:false,
+            allpay: false
           })
           for (var i in vm.data.carts) {
             var str=vm.data.carts[i].num
@@ -306,13 +368,14 @@ Page({
           }
         } else if (selectAllStatus == false){
           vm.setData({
-            pay_selected: true
+            pay_selected: true,
+            allpay: true
           })
           vm.data.ordernum=[]
           vm.data.check_box=[];
           vm.data.sku_id=[]
         }
-        if(res.code==203){
+        if(res.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {

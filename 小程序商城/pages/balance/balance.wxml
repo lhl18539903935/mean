@@ -19,7 +19,7 @@
     </navigator>
   </view>
   <!-- 详情 -->
-  <view class="bg balance_detail" wx:for="{{buy_lists}}" wx:key="index">
+  <view class="bg balance_detail" wx:for="{{buy_lists}}" wx:key="index" >
     <view style="width:95%;margin:0 auto;">
           <view class="inline">
         <image src="{{item.pic_url}}" style='width:200rpx;height:140rpx;margin-right:20rpx;'></image>
@@ -49,5 +49,5 @@
     </view>
 
 
-<button class="f16" style="background-color:#ED9537;color:#fff;margin:1rem auto;width:90%;">提交订单</button>
+<button class="f16" style="background-color:#ED9537;color:#fff;margin:1rem auto;width:90%;" bindtap='submit'>提交订单</button>
 </view>

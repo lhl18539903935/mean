@@ -76,12 +76,15 @@ Page({
         vm.data.shi = res.data
       }
     })
-    wx.getStorage({
-      key: 'area_id',
-      success: function (res) {
-        vm.data.qu = res.data
-      }
-    })
+    setTimeout(function(){
+      wx.getStorage({
+        key: 'area_id',
+        success: function (res) {
+          vm.data.qu = res.data
+        }
+      })
+    },1000)
+
     wx.getStorage({
       key: 'city_name',
       success: function (res) {
@@ -142,6 +145,7 @@ Page({
     var vm=this
     console.log(vm.data.qu)
     if (!vm.data.name || !vm.data.mobile || !vm.data.address_detail || !vm.data.sheng || !vm.data.shi || !vm.data.emile || !vm.data.qu) {
+      console.log(vm.data.name, vm.data.mobile, vm.data.address_detail, vm.data.sheng, vm.data.shi, vm.data.emile, vm.data.qu)
       wx.showToast({
         title: '请填写完整信息',
         icon: 'none',

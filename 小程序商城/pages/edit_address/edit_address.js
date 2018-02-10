@@ -46,7 +46,7 @@ Page({
       },
       success:function(res){
         console.log(res.data)
-        if (res.data.code == 203) {
+        if (res.data.code == 223) {
           wx.removeStorage({
             key: 'token',
             success: function (res) {
@@ -191,7 +191,7 @@ Page({
         "TOKEN":app.data.token
       }, 
       success:function(res){
-        if(res.data.code==203){
+        if(res.data.code==223){
           wx.removeStorage({
             key: 'token',
             success: function (res) {

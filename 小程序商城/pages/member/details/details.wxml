@@ -47,10 +47,10 @@
       <text class="iconfont icon-gouwuche"></text>
       <text>\n客服</text>
     </view>
-    <navigator url="../../cart/cart">
+    <view bindtap='jumpcart'>
       <text class="iconfont icon-gouwuche"></text>
       <text>\n购物车</text>
-    </navigator>
+    </view>
   </view>
   <view class="cart" bindtap="tapAlert">加入购物车</view>
   <view class="buy" bindtap="tapAlert1">立即购买</view>

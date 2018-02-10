@@ -27,7 +27,10 @@
               <text >结算</text>
             </view> 
             <!-- <text wx:if="{{!selected}}"  style="float:right;background-color:#ddd;padding:0 20rpx;color:#fff;line-height: 120rpx; ">结算(0)</text> -->
-            <text style='float:right;margin-right:20rpx;font-size:32rpx;'>合计：<text style='display:inline-block;color:red'>￥ {{cart_price}}</text>   </text>
+            <text style='float:right;margin-right:20rpx;font-size:32rpx;'>合计：<text wx:if="{{!allpay}}" style='display:inline-block;color:red'>￥ {{cart_price}}</text> 
+             <text wx:if="{{allpay}}" style='display:inline-block;color:red'>￥ 0.00</text> 
+             </text>
+            
             <view style="text-align:right;margin:-40rpx 160rpx 0 0;font-size:24rpx;color:#ddd">以上不含运费</view>
         </view>
     </view>

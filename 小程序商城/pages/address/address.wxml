@@ -9,7 +9,8 @@
       <view class="address_bottom">
          <view class="radio-group inline" bindtap="radioChange" id="{{item.address_id}}" data-index="{{index}}">
           <view class="radio ">
-             <view class="{{num==index?'red':''}}">设为默认</view> 
+             <view wx:if="{{num==index}}" class="{{num==index?'red':''}}">默认地址</view> 
+             <view wx:if="{{num!=index}}">设为默认</view> 
           </view>
         </view> 
         <!-- <icon wx:if="{{choose}}" type="success" color="red" data-index="{{index}}"  class="cart-pro-select" bindtap="radioChange"/>
